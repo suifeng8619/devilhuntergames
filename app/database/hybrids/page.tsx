@@ -33,8 +33,8 @@ export default function HybridsPage() {
   const totalHybrids = hybrids.length
   const avgDropRate =
     hybrids.reduce((sum: number, h: any) => sum + (h.acquisition.dropRate || 0), 0) / totalHybrids
-  const eventExclusive = hybrids.filter((h) => h.rarity === 'Event Only').length
-  const raidDrop = hybrids.filter((h) => h.acquisition.method === 'Raid Drop').length
+  const eventExclusive = hybrids.filter((h: any) => h.rarity === 'Event Only').length
+  const raidDrop = hybrids.filter((h: any) => h.acquisition.method === 'Raid Drop').length
 
   return (
     <div className="min-h-screen bg-background-primary">
@@ -133,7 +133,7 @@ export default function HybridsPage() {
 
         {/* Horizontal Comparison Layout (max 2 columns) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {hybrids.map((hybrid) => (
+          {hybrids.map((hybrid: any) => (
             <HybridCard key={hybrid.id} hybrid={hybrid} />
           ))}
         </div>
@@ -151,7 +151,7 @@ export default function HybridsPage() {
                     <th className="text-left py-3 px-4 text-text-secondary font-semibold">
                       Feature
                     </th>
-                    {hybrids.map((hybrid) => (
+                    {hybrids.map((hybrid: any) => (
                       <th
                         key={hybrid.id}
                         className="text-left py-3 px-4 text-text-primary font-bold"
@@ -164,7 +164,7 @@ export default function HybridsPage() {
                 <tbody>
                   <tr className="border-b border-border-primary">
                     <td className="py-3 px-4 text-text-tertiary">PvP Rating</td>
-                    {hybrids.map((hybrid) => (
+                    {hybrids.map((hybrid: any) => (
                       <td
                         key={hybrid.id}
                         className={`py-3 px-4 font-semibold ${
@@ -181,7 +181,7 @@ export default function HybridsPage() {
                   </tr>
                   <tr className="border-b border-border-primary">
                     <td className="py-3 px-4 text-text-tertiary">PvE Rating</td>
-                    {hybrids.map((hybrid) => (
+                    {hybrids.map((hybrid: any) => (
                       <td
                         key={hybrid.id}
                         className={`py-3 px-4 font-semibold ${
@@ -198,7 +198,7 @@ export default function HybridsPage() {
                   </tr>
                   <tr className="border-b border-border-primary">
                     <td className="py-3 px-4 text-text-tertiary">Availability</td>
-                    {hybrids.map((hybrid) => (
+                    {hybrids.map((hybrid: any) => (
                       <td key={hybrid.id} className="py-3 px-4 text-text-primary">
                         {hybrid.rarity}
                       </td>
@@ -206,7 +206,7 @@ export default function HybridsPage() {
                   </tr>
                   <tr className="border-b border-border-primary">
                     <td className="py-3 px-4 text-text-tertiary">Drop Rate</td>
-                    {hybrids.map((hybrid) => (
+                    {hybrids.map((hybrid: any) => (
                       <td key={hybrid.id} className="py-3 px-4 text-text-primary">
                         {hybrid.acquisition.dropRate
                           ? `${(hybrid.acquisition.dropRate * 100).toFixed(1)}%`
@@ -216,7 +216,7 @@ export default function HybridsPage() {
                   </tr>
                   <tr>
                     <td className="py-3 px-4 text-text-tertiary">Est. Time</td>
-                    {hybrids.map((hybrid) => (
+                    {hybrids.map((hybrid: any) => (
                       <td key={hybrid.id} className="py-3 px-4 text-text-primary">
                         {hybrid.acquisition.averageTimeToObtain}
                       </td>
