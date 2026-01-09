@@ -155,6 +155,14 @@ export function getHybridById(id: string): Hybrid | null {
   return hybrids.find((h) => h.id === id) || null
 }
 
+/**
+ * Get hybrids by tier
+ */
+export function getHybridsByTier(tier: string): Hybrid[] {
+  const hybrids = getAllHybrids()
+  return hybrids.filter((h) => h.tier === tier)
+}
+
 // =============================================================================
 // RAIDS
 // =============================================================================
@@ -176,6 +184,14 @@ export function getAllRaids(): Raid[] {
 export function getRaidById(id: string): Raid | null {
   const raids = getAllRaids()
   return raids.find((r) => r.id === id) || null
+}
+
+/**
+ * Get raids by difficulty
+ */
+export function getRaidsByDifficulty(difficulty: string): Raid[] {
+  const raids = getAllRaids()
+  return raids.filter((r) => r.difficulty === difficulty)
 }
 
 // =============================================================================
@@ -292,6 +308,14 @@ export async function getGuideBySlug(slug: string): Promise<Guide | null> {
  */
 export function getGuideSlugs(): string[] {
   return getSlugs(GUIDES_DIR)
+}
+
+/**
+ * Get guides by category
+ */
+export async function getGuidesByCategory(category: string): Promise<Guide[]> {
+  const guides = await getAllGuides()
+  return guides.filter((g) => g.category === category)
 }
 
 // =============================================================================

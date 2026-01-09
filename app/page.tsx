@@ -294,21 +294,22 @@ export default function Home() {
             />
             <DatabaseCard
               title="Devil Hunter Hybrids"
-              count={8}
-              description="Devil Hunter transformation forms"
+              count={2}
+              description="S-tier permanent transformation choices"
               href="/database/hybrids"
               gradient="from-tier-b to-tier-c"
-              comingSoon
             />
             <DatabaseCard
               title="Devil Hunter Raids"
-              count={5}
-              description="Devil Hunter boss fights & rewards"
+              count={3}
+              description="Boss fights with high-value drops"
               href="/database/raids"
               gradient="from-brand-primary to-semantic-error"
-              comingSoon
             />
           </div>
+          <p className="text-center text-text-tertiary text-sm mt-8">
+            📝 Database constantly updated. More content coming soon.
+          </p>
         </div>
       </section>
 
