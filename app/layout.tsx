@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Noto_Sans_SC } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -75,6 +76,14 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+
+        {/* Plausible Analytics - 全站统计 */}
+        <Script
+          defer
+          data-domain="devilhuntergames.com"
+          src="https://stats.toolifybox.com/js/script.file-downloads.outbound-links.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
