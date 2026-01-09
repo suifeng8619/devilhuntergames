@@ -6,9 +6,24 @@ export default function Home() {
   const contracts = getAllContracts()
   const sTierContracts = contracts.filter(c => c.tier === 'S')
 
-  // 计算平均PvP评分
+  // Convert rating letters to numbers for calculation
+  const ratingToNumber = (rating: string): number => {
+    const ratingMap: { [key: string]: number } = {
+      'S+': 100,
+      'S': 95,
+      'A+': 90,
+      'A': 85,
+      'B+': 80,
+      'B': 75,
+      'C+': 70,
+      'C': 65,
+    }
+    return ratingMap[rating] || 75
+  }
+
+  // Calculate average PvP rating
   const totalPvPRating = contracts.reduce((sum: number, c) => {
-    return sum + Number(c.rating.pvp)
+    return sum + ratingToNumber(c.rating.pvp)
   }, 0)
 
   const stats = {

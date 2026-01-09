@@ -49,27 +49,27 @@ export default function GuidesPage() {
   // Problem-oriented index mapping
   const problemIndex = [
     {
-      problem: '我该选什么路径？',
+      problem: 'Which path should I choose?',
       icon: <Map className="text-brand-primary" size={24} />,
       guide: guides.find((g) => g.slug === 'getting-started'),
     },
     {
-      problem: '如何避免后悔？',
+      problem: 'How do I avoid regrets?',
       icon: <AlertTriangle className="text-semantic-error" size={24} />,
       guide: guides.find((g) => g.slug === 'permanent-mistakes'),
     },
     {
-      problem: 'PvP总是输怎么办？',
+      problem: 'Why do I keep losing in PvP?',
       icon: <Swords className="text-semantic-warning" size={24} />,
       guide: guides.find((g) => g.slug === 'pvp-mastery'),
     },
     {
-      problem: '怎么快速赚Yen？',
+      problem: 'How to farm Yen quickly?',
       icon: <TrendingUp className="text-tier-s" size={24} />,
       guide: guides.find((g) => g.slug === 'yen-farming'),
     },
     {
-      problem: '选什么契约？',
+      problem: 'Which contracts should I choose?',
       icon: <Lightbulb className="text-tier-a" size={24} />,
       guide: guides.find((g) => g.slug === 'contract-decision'),
     },

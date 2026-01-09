@@ -44,7 +44,7 @@ export const metadata: Metadata = {
       'Complete Devil Hunter guide for Roblox. Learn best Devil Hunter builds, contracts, and strategies to dominate Devil Hunter gameplay.',
     url: 'https://devilhuntergames.com',
     siteName: 'Devil Hunter Guide',
-    locale: 'zh_CN',
+    locale: 'en_US',
     type: 'website',
   },
   twitter: {
@@ -71,7 +71,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh" className={`${inter.variable} ${notoSansSC.variable} dark`}>
+    <html lang="en" className={`${inter.variable} ${notoSansSC.variable} dark`}>
       <body className="font-sans bg-background-primary text-text-primary min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">{children}</main>

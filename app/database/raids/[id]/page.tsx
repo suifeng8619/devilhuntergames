@@ -48,6 +48,11 @@ export async function generateMetadata({ params }: RaidPageProps): Promise<Metad
   return {
     title: `${raid.name} - ${raid.difficulty} Raid | Devil Hunter Games`,
     description: `Complete ${raid.name} guide. Boss: ${raid.bossName} (Lv ${raid.bossLevel}). Drop rates, strategies, and rewards.`,
+    openGraph: {
+      title: `${raid.name} - ${raid.difficulty} Raid | Devil Hunter Games`,
+      description: `Complete ${raid.name} guide. Boss: ${raid.bossName} (Lv ${raid.bossLevel}). Drop rates, strategies, and rewards.`,
+      type: 'article',
+    },
   }
 }
 

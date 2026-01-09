@@ -50,6 +50,11 @@ export async function generateMetadata({
   return {
     title: `${hybrid.name} - ${hybrid.tier}-Tier Hybrid | Devil Hunter Games`,
     description: `${hybrid.description}. PvP: ${hybrid.rating.pvp}, PvE: ${hybrid.rating.pve}. ${hybrid.whyTier}`,
+    openGraph: {
+      title: `${hybrid.name} - ${hybrid.tier}-Tier Hybrid | Devil Hunter Games`,
+      description: `${hybrid.description}. PvP: ${hybrid.rating.pvp}, PvE: ${hybrid.rating.pve}. ${hybrid.whyTier}`,
+      type: 'article',
+    },
   }
 }
 
