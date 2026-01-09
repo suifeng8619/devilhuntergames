@@ -3,17 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: #0A0A0B;
-    --foreground: #F5F5F7;
-  }
-
-  * {
-    @apply border-border-primary;
-  }
-
   body {
-    @apply bg-background-primary text-text-primary antialiased;
+    @apply antialiased;
+    background-color: #0A0A0B;
+    color: #F5F5F7;
   }
 }
 
