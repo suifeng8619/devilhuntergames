@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter, Noto_Sans_SC } from 'next/font/google'
 import './globals.css'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -32,9 +34,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${notoSansSC.variable} dark`}>
-      <body className="font-sans">
-        {children}
+    <html lang="zh" className={`${inter.variable} ${notoSansSC.variable} dark`}>
+      <body className="font-sans bg-background-primary text-text-primary min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   )
