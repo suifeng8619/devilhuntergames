@@ -19,12 +19,42 @@ const notoSansSC = Noto_Sans_SC({
 export const metadata: Metadata = {
   title: 'Devil Hunter Games - Your Ultimate Decision Support System',
   description: 'Make the right choices in Roblox Devil Hunter. Build planner, contract database, and comprehensive guides to help you avoid regret.',
-  keywords: ['Devil Hunter', 'Roblox', 'Build Planner', 'Contracts', 'Guides'],
+  keywords: [
+    'Devil Hunter',
+    'Roblox',
+    'Build Planner',
+    'Contracts',
+    'Guides',
+    'Fiend Talents',
+    'Hybrid Forms',
+    'PvP',
+    'PvE',
+  ],
   authors: [{ name: 'Devil Hunter Games' }],
   openGraph: {
+    title: 'Devil Hunter Games - Ultimate Decision Support System',
+    description:
+      'Make the right choices in Roblox Devil Hunter. Build planner, contract database, and comprehensive guides to help you avoid regret.',
+    url: 'https://devilhuntergames.com',
+    siteName: 'Devil Hunter Games',
+    locale: 'zh_CN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
     title: 'Devil Hunter Games',
     description: 'Your ultimate decision support system for Roblox Devil Hunter',
-    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 }
 
