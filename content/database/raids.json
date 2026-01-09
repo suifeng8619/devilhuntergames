@@ -1,0 +1,190 @@
+[
+  {
+    "id": "yakuza-raid",
+    "name": "Yakuza Raid",
+    "difficulty": "Hard",
+    "emoji": "🚬",
+    "location": "Yakuza Base (restricted area)",
+    "locationDetails": "Requires Yakuza clan membership (20 hearts to join)",
+    "bossName": "Yakuza Boss",
+    "bossLevel": 25,
+    "requirements": {
+      "fearLevel": 20,
+      "players": {
+        "min": 1,
+        "max": 6,
+        "recommended": 3
+      },
+      "specialRequirement": "Yakuza clan member (20 hearts)"
+    },
+    "guaranteedDrops": [
+      {
+        "item": "Ghost Devil Contract",
+        "dropRate": 0.1,
+        "rarity": "Very Rare",
+        "exclusive": true
+      },
+      {
+        "item": "Ghost Devil Body Parts",
+        "dropRate": 1,
+        "rarity": "Uncommon"
+      },
+      {
+        "item": "Yakuza Weapons",
+        "dropRate": 0.25,
+        "rarity": "Rare"
+      }
+    ],
+    "rewards": {
+      "yen": "30,000-50,000",
+      "xp": "High"
+    },
+    "strategy": {
+      "teamComposition": "2-3 DPS + 1 Support",
+      "requiredDPS": "High",
+      "difficulty": "Hard",
+      "soloable": false,
+      "tips": [
+        "Ghost Devil contract is raid-exclusive",
+        "Farm repeatedly for 10% drop",
+        "High DPS essential",
+        "Learn boss patterns"
+      ],
+      "avoid": [
+        "Going solo",
+        "Low damage builds"
+      ]
+    },
+    "meta": {
+      "popularityRating": 9,
+      "farmWorthiness": 10,
+      "newbieFriendly": 5,
+      "timeToComplete": "15-20 minutes"
+    },
+    "relatedContracts": [
+      "ghost-devil"
+    ],
+    "relatedTalents": [
+      "ghost-walk"
+    ]
+  },
+  {
+    "id": "zombie-raid",
+    "name": "Zombie Raid",
+    "difficulty": "Medium",
+    "emoji": "🧟",
+    "location": "Graveyard District",
+    "bossName": "Zombie Horde",
+    "bossLevel": 15,
+    "requirements": {
+      "fearLevel": 10,
+      "players": {
+        "min": 1,
+        "max": 6,
+        "recommended": 2
+      }
+    },
+    "guaranteedDrops": [
+      {
+        "item": "Zombie Devil Contract",
+        "dropRate": 0.15,
+        "rarity": "Rare"
+      },
+      {
+        "item": "Zombie Devil Body Parts",
+        "dropRate": 0.8,
+        "rarity": "Common"
+      }
+    ],
+    "rewards": {
+      "yen": "15,000-25,000"
+    },
+    "strategy": {
+      "difficulty": "Medium",
+      "soloable": true,
+      "tips": [
+        "Great for farming Fiend body parts",
+        "Borrowed Life talent unlocked here",
+        "AoE attacks very effective"
+      ],
+      "avoid": [
+        "Single-target only builds"
+      ]
+    },
+    "meta": {
+      "popularityRating": 8,
+      "farmWorthiness": 8,
+      "newbieFriendly": 9,
+      "timeToComplete": "10-15 minutes"
+    },
+    "relatedTalents": [
+      "borrowed-life"
+    ]
+  },
+  {
+    "id": "katana-raid",
+    "name": "Katana Raid",
+    "difficulty": "Very Hard",
+    "emoji": "🗡️",
+    "location": "Samurai Temple (hidden)",
+    "locationDetails": "Secret location - requires temple discovery",
+    "bossName": "Katana Devil",
+    "bossLevel": 30,
+    "bossHealth": "500,000 HP",
+    "bossAbilities": [
+      "Instant-kill slash (perfect dodge required)",
+      "Multi-phase fight",
+      "Speed increases each phase"
+    ],
+    "requirements": {
+      "fearLevel": 25,
+      "players": {
+        "min": 2,
+        "max": 6,
+        "recommended": 4
+      }
+    },
+    "guaranteedDrops": [
+      {
+        "item": "Katana Hybrid Surgery",
+        "dropRate": 0.05,
+        "rarity": "Legendary",
+        "exclusive": true
+      },
+      {
+        "item": "Legendary Katana Weapons",
+        "dropRate": 0.15,
+        "rarity": "Very Rare"
+      }
+    ],
+    "rewards": {
+      "yen": "75,000-150,000",
+      "xp": "Very High"
+    },
+    "strategy": {
+      "teamComposition": "3 DPS + 1 Tank/Support",
+      "requiredDPS": "Very High",
+      "difficulty": "Very Hard",
+      "soloable": false,
+      "tips": [
+        "One of best Hybrid types (S-tier)",
+        "Extremely rare 5% drop",
+        "Master dodging - boss has instant-kill",
+        "Future Devil prediction essential"
+      ],
+      "avoid": [
+        "Low skill players",
+        "Undergeared teams"
+      ]
+    },
+    "meta": {
+      "popularityRating": 10,
+      "farmWorthiness": 10,
+      "newbieFriendly": 2,
+      "timeToComplete": "20-30 minutes"
+    },
+    "relatedHybrids": [
+      "katana-hybrid"
+    ]
+  }
+]

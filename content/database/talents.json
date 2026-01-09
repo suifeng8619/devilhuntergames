@@ -1,0 +1,130 @@
+[
+  {
+    "id": "ghost-walk",
+    "name": "Ghost Walk",
+    "tier": "S",
+    "emoji": "👻",
+    "effect": "Invisibility after perfect dodge",
+    "whyTier": "Free repositioning and ambush potential. Dominates PvP.",
+    "slotCost": {
+      "slots": 2
+    },
+    "source": {
+      "devilType": "Ghost Devil",
+      "bodyPart": "Ghost Devil's Arm",
+      "killRequirement": 25,
+      "farmLocation": "Yakuza Raid"
+    },
+    "bestFor": [
+      "PvP",
+      "Mobility"
+    ],
+    "activation": "On Dodge",
+    "activationDetails": "Perfect dodge triggers 5s invisibility",
+    "meta": {
+      "usageRate": "70% of Fiend PvP players",
+      "mandatory": true,
+      "newbieFriendly": 6,
+      "skillCeiling": "High"
+    },
+    "recommendedBuilds": [
+      "fiend-ghost",
+      "fiend-pvp"
+    ]
+  },
+  {
+    "id": "stone-skin",
+    "name": "Stone Skin",
+    "tier": "S",
+    "emoji": "🪨",
+    "effect": "Permanent damage reduction",
+    "whyTier": "Always-on defense. Mandatory for tank builds and PvE.",
+    "slotCost": {
+      "slots": 2
+    },
+    "source": {
+      "devilType": "Stone Devil",
+      "bodyPart": "Stone Appendages",
+      "killRequirement": 25,
+      "farmLocation": "Rocky Quarry"
+    },
+    "bestFor": [
+      "PvE",
+      "Tank"
+    ],
+    "statsImpact": {
+      "defense": "+30%"
+    },
+    "activation": "Passive",
+    "meta": {
+      "usageRate": "85% of Fiend players",
+      "mandatory": true,
+      "newbieFriendly": 10,
+      "skillCeiling": "Low"
+    },
+    "recommendedBuilds": [
+      "fiend-tank",
+      "pve-farmer"
+    ]
+  },
+  {
+    "id": "life-leech",
+    "name": "Life Leech",
+    "tier": "A",
+    "emoji": "🩸",
+    "effect": "Heal on hit - sustain builds",
+    "whyTier": "Excellent sustain for extended fights and farming",
+    "slotCost": {
+      "slots": 1
+    },
+    "source": {
+      "devilType": "Leech Devil",
+      "bodyPart": "Leech Mouth",
+      "killRequirement": 25,
+      "farmLocation": "City spawns"
+    },
+    "bestFor": [
+      "PvE",
+      "Support"
+    ],
+    "statsImpact": {
+      "regeneration": "+2% of damage dealt"
+    },
+    "activation": "On Hit",
+    "meta": {
+      "usageRate": "50% of Fiend players",
+      "mandatory": false,
+      "newbieFriendly": 9,
+      "skillCeiling": "Low"
+    }
+  },
+  {
+    "id": "borrowed-life",
+    "name": "Borrowed Life",
+    "tier": "A",
+    "emoji": "🧠",
+    "effect": "Survive lethal damage once",
+    "whyTier": "Second chance mechanic. Get out of jail free card.",
+    "slotCost": {
+      "slots": 2
+    },
+    "source": {
+      "devilType": "Zombie Devil",
+      "bodyPart": "Zombie Brain",
+      "killRequirement": 25,
+      "farmLocation": "Graveyard Raid"
+    },
+    "bestFor": [
+      "PvP",
+      "PvE"
+    ],
+    "activation": "Conditional",
+    "activationDetails": "Triggers at 0 HP once per life",
+    "meta": {
+      "usageRate": "40% of Fiend players",
+      "mandatory": false,
+      "newbieFriendly": 8,
+      "skillCeiling": "Medium"
+    }
+  }
+]

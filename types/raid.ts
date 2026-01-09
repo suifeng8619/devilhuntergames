@@ -4,10 +4,12 @@
 
 export type RaidDifficulty = 'Easy' | 'Medium' | 'Hard' | 'Very Hard' | 'Extreme'
 
+export type DropRarity = 'Common' | 'Uncommon' | 'Rare' | 'Very Rare' | 'Legendary'
+
 export interface RaidDrop {
   item: string
   dropRate: number // 0-1 range (0.10 = 10%)
-  rarity: 'Common' | 'Uncommon' | 'Rare' | 'Very Rare' | 'Legendary'
+  rarity: DropRarity
   exclusive?: boolean // Is this drop raid-exclusive?
 }
 

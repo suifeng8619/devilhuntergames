@@ -5,7 +5,7 @@
 
 export type HybridTier = 'S' | 'A' | 'B' | 'C'
 
-export type HybridRarity = 'Common' | 'Uncommon' | 'Rare' | 'Very Rare' | 'Event Only'
+export type HybridRarity = 'Common' | 'Uncommon' | 'Rare' | 'Very Rare' | 'Legendary' | 'Event Only'
 
 export interface HybridAcquisition {
   method: 'Raid Drop' | 'Event' | 'Special Quest' | 'Black Market'

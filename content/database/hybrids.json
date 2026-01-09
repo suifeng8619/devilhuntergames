@@ -1,0 +1,189 @@
+[
+  {
+    "id": "katana-hybrid",
+    "name": "Katana Hybrid",
+    "tier": "S",
+    "rarity": "Very Rare",
+    "emoji": "🗡️",
+    "description": "Transform into samurai demon with devastating speed",
+    "transformationForm": "Samurai demon form with katana mastery",
+    "whyTier": "Fastest attack speed in game. Devastating combos. Excellent mobility.",
+    "rating": {
+      "pvp": "S+",
+      "pve": "S"
+    },
+    "transformation": {
+      "activationKey": "L",
+      "duration": "60 seconds",
+      "cooldown": "180 seconds",
+      "healthBoost": "+50%",
+      "damageBoost": "+80%",
+      "speedBoost": "+40%",
+      "regeneration": "5% per second",
+      "uniqueMechanics": [
+        "Fastest attack speed in game",
+        "Perfect dodge cancels into attacks",
+        "Extended combo chains"
+      ],
+      "abilities": [
+        {
+          "name": "Blade Rush",
+          "key": "Z",
+          "description": "10-hit rapid katana combo",
+          "damage": "Very High",
+          "cooldown": "8s"
+        },
+        {
+          "name": "Iai Slash",
+          "key": "X",
+          "description": "Instant draw attack - massive damage",
+          "damage": "Extreme",
+          "cooldown": "15s"
+        },
+        {
+          "name": "Shadow Step",
+          "key": "C",
+          "description": "Teleport behind enemy",
+          "cooldown": "10s"
+        }
+      ]
+    },
+    "acquisition": {
+      "method": "Raid Drop",
+      "raidName": "Katana Raid",
+      "dropRate": 0.05,
+      "availability": "Always",
+      "requirements": [
+        {
+          "item": "Surgery Kit",
+          "itemRarity": "Very Rare"
+        },
+        {
+          "item": "Katana Devil's Heart",
+          "itemRarity": "Very Rare"
+        }
+      ],
+      "averageTimeToObtain": "20 hours (60+ raids average)",
+      "communitySuccessRate": "15% of players who attempt"
+    },
+    "warnings": [
+      {
+        "type": "Irreversible",
+        "message": "Cannot switch paths once you become Hybrid",
+        "severity": "Critical"
+      },
+      {
+        "type": "Time",
+        "message": "20+ hours expected to obtain 5% drop",
+        "severity": "High"
+      }
+    ],
+    "meta": {
+      "usageRate": "15% of high-level players",
+      "recommendationLevel": "Highly Recommended",
+      "skillCeiling": "Very High",
+      "newbieFriendly": 3
+    },
+    "playstyle": "Hyper-aggressive speed demon",
+    "strengths": [
+      "Fastest attack speed",
+      "Devastating combo potential",
+      "Excellent mobility",
+      "High burst damage"
+    ],
+    "weaknesses": [
+      "No sustain outside transformation",
+      "Transformation downtime",
+      "Requires high skill",
+      "Squishy when not transformed"
+    ],
+    "alternativeTo": [
+      "chainsaw-hybrid"
+    ]
+  },
+  {
+    "id": "chainsaw-hybrid",
+    "name": "Chainsaw Hybrid",
+    "tier": "S",
+    "rarity": "Event Only",
+    "emoji": "⛓️",
+    "description": "Transform into Chainsaw Devil (Denji reference)",
+    "transformationForm": "Chainsaw head and arms - iconic anime look",
+    "whyTier": "Insane DPS. Iconic pull-start animation. Best PvE hybrid.",
+    "rating": {
+      "pvp": "S",
+      "pve": "S+"
+    },
+    "transformation": {
+      "activationKey": "L",
+      "duration": "60 seconds",
+      "cooldown": "180 seconds",
+      "healthBoost": "+60%",
+      "damageBoost": "+100%",
+      "regeneration": "7% per second",
+      "uniqueMechanics": [
+        "Highest single-target DPS",
+        "Pull-start animation",
+        "Chain attacks pierce armor"
+      ],
+      "abilities": [
+        {
+          "name": "Chainsaw Barrage",
+          "key": "Z",
+          "description": "Rapid chainsaw slashes",
+          "damage": "Extreme",
+          "cooldown": "6s"
+        },
+        {
+          "name": "Heart Rip",
+          "key": "X",
+          "description": "Grab and rip out heart",
+          "damage": "Massive",
+          "cooldown": "20s"
+        }
+      ]
+    },
+    "acquisition": {
+      "method": "Event",
+      "eventName": "Chainsaw Man Crossover",
+      "availability": "Event Only",
+      "requirements": [
+        {
+          "item": "Event Surgery Kit",
+          "itemRarity": "Legendary"
+        }
+      ],
+      "averageTimeToObtain": "Event participation only"
+    },
+    "warnings": [
+      {
+        "type": "Irreversible",
+        "message": "One-time permanent choice",
+        "severity": "Critical"
+      },
+      {
+        "type": "Time",
+        "message": "Only available during special events",
+        "severity": "Critical"
+      }
+    ],
+    "meta": {
+      "usageRate": "5% of players (event-locked)",
+      "recommendationLevel": "Highly Recommended",
+      "skillCeiling": "Medium",
+      "newbieFriendly": 5
+    },
+    "playstyle": "Berserk damage dealer",
+    "strengths": [
+      "Highest PvE DPS",
+      "Iconic design",
+      "Strong regeneration",
+      "Armor pierce"
+    ],
+    "weaknesses": [
+      "Event-exclusive",
+      "Short range",
+      "Transformation reliant"
+    ]
+  }
+]

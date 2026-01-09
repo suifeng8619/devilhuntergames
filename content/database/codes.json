@@ -1,0 +1,140 @@
+[
+  {
+    "id": "75klikes",
+    "code": "75KLIKES",
+    "status": "New",
+    "rewards": [
+      {
+        "type": "Yen",
+        "amount": "200,000"
+      },
+      {
+        "type": "Fiend Reroll"
+      },
+      {
+        "type": "Clan Reroll"
+      }
+    ],
+    "totalValue": "200K+ Yen equivalent",
+    "caseSensitive": true,
+    "redeemable": "Once",
+    "description": "Latest code - massive Yen reward"
+  },
+  {
+    "id": "shutdownsorry",
+    "code": "SHUTDOWNSORRY",
+    "status": "New",
+    "rewards": [
+      {
+        "type": "Yen",
+        "amount": "Various"
+      }
+    ],
+    "caseSensitive": true,
+    "redeemable": "Once",
+    "description": "Compensation for server downtime"
+  },
+  {
+    "id": "50klikes",
+    "code": "50KLIKES",
+    "status": "Active",
+    "rewards": [
+      {
+        "type": "SP Reset"
+      },
+      {
+        "type": "Clan Reroll"
+      },
+      {
+        "type": "Fiend Reroll"
+      }
+    ],
+    "caseSensitive": true,
+    "redeemable": "Once"
+  },
+  {
+    "id": "melo150k",
+    "code": "MELO150K",
+    "status": "Active",
+    "rewards": [
+      {
+        "type": "Yen",
+        "amount": "75,000"
+      },
+      {
+        "type": "Fiend Reroll"
+      },
+      {
+        "type": "Clan Reroll"
+      },
+      {
+        "type": "Contract",
+        "item": "Eraser Devil"
+      }
+    ],
+    "totalValue": "75K Yen + Contract",
+    "caseSensitive": true,
+    "redeemable": "Once"
+  },
+  {
+    "id": "release2026",
+    "code": "RELEASE2026",
+    "status": "Active",
+    "rewards": [
+      {
+        "type": "Yen",
+        "amount": "35,000"
+      },
+      {
+        "type": "Fiend Reroll"
+      },
+      {
+        "type": "Clan Reroll"
+      }
+    ],
+    "caseSensitive": true,
+    "redeemable": "Once"
+  },
+  {
+    "id": "20klikes",
+    "code": "20KLIKES",
+    "status": "Active",
+    "rewards": [
+      {
+        "type": "Yen",
+        "amount": "50,000"
+      },
+      {
+        "type": "Fiend Reroll"
+      },
+      {
+        "type": "Clan Reroll"
+      },
+      {
+        "type": "Contract",
+        "item": "Eraser Devil"
+      }
+    ],
+    "caseSensitive": true,
+    "redeemable": "Once"
+  },
+  {
+    "id": "10klikes",
+    "code": "10KLIKES",
+    "status": "Active",
+    "rewards": [
+      {
+        "type": "Yen",
+        "amount": "25,000"
+      },
+      {
+        "type": "Fiend Reroll"
+      },
+      {
+        "type": "Clan Reroll"
+      }
+    ],
+    "caseSensitive": true,
+    "redeemable": "Once"
+  }
+]

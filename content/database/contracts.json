@@ -1,0 +1,370 @@
+[
+  {
+    "id": "future-devil",
+    "name": "Future Devil",
+    "tier": "S",
+    "emoji": "🔮",
+    "rating": {
+      "pvp": "S+",
+      "pve": "A"
+    },
+    "description": "See 2 seconds into the future - broken in PvP",
+    "whyTier": "2-second prediction makes this META-defining. See attacks before they land.",
+    "abilities": [
+      {
+        "name": "Future Sight",
+        "description": "Predict enemy actions 2 seconds ahead",
+        "cooldown": "Passive"
+      },
+      {
+        "name": "Perfect Dodge",
+        "description": "Trigger invincibility frames based on prediction",
+        "cooldown": "5s"
+      },
+      {
+        "name": "Counter Window",
+        "description": "+50% damage on counter attacks within 0.5s of prediction"
+      }
+    ],
+    "sideEffects": [
+      {
+        "effect": "Blindness",
+        "severity": "Minor",
+        "description": "Cosmetic screen edge blur - habit makes it ignorable"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "NPC Quest",
+        "cost": "30 eye items",
+        "difficulty": "Medium",
+        "soloable": true,
+        "notes": "HQ Floor 0 NPC"
+      },
+      {
+        "method": "Contract Dealer",
+        "cost": "3,000 Yen per roll",
+        "dropRate": 0.03,
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "~3% chance, expect 10-15 rolls"
+      },
+      {
+        "method": "Encounter",
+        "cost": "Free",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Choose \"lose eyesight\" option"
+      }
+    ],
+    "meta": {
+      "usageRate": "68% of high-end PvP players",
+      "winRate": "72%",
+      "newbieFriendly": 4,
+      "skillCeiling": "Very High",
+      "communityRating": "PvP must-have, but needs practice"
+    },
+    "synergiesWith": [
+      "ghost-devil",
+      "violence-devil"
+    ],
+    "recommendedBuilds": [
+      "ghost-walker",
+      "future-tactician"
+    ]
+  },
+  {
+    "id": "ghost-devil",
+    "name": "Ghost Devil",
+    "tier": "S",
+    "emoji": "👻",
+    "rating": {
+      "pvp": "S+",
+      "pve": "B"
+    },
+    "description": "Invisible grabs that cannot be dodged - perfect combo starter",
+    "whyTier": "Invisible grab attacks are unavoidable, guaranteeing combo initiation in PvP",
+    "abilities": [
+      {
+        "name": "Ghost Grab",
+        "description": "Invisible grab - enemy cannot see or dodge",
+        "cooldown": "8s",
+        "damage": "Medium"
+      },
+      {
+        "name": "Phase Through",
+        "description": "Pass through walls and obstacles",
+        "cooldown": "12s"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "Yakuza Raid",
+        "dropRate": 0.1,
+        "difficulty": "Hard",
+        "soloable": false,
+        "notes": "RAID EXCLUSIVE - Farm repeatedly for 10% drop"
+      }
+    ],
+    "meta": {
+      "usageRate": "55% of top PvP players",
+      "newbieFriendly": 6,
+      "skillCeiling": "Medium",
+      "communityRating": "Best combo starter in game"
+    },
+    "synergiesWith": [
+      "future-devil",
+      "mantis-devil"
+    ],
+    "counters": [
+      "predictable-opponents"
+    ],
+    "recommendedBuilds": [
+      "ghost-walker",
+      "ghost-stealth"
+    ]
+  },
+  {
+    "id": "mantis-devil",
+    "name": "Mantis Devil",
+    "tier": "S",
+    "emoji": "🦗",
+    "rating": {
+      "pvp": "S",
+      "pve": "A"
+    },
+    "description": "Move during attack animations - unstoppable combos",
+    "whyTier": "Unique movement during animations creates unstoppable pressure. Back damage bonus.",
+    "abilities": [
+      {
+        "name": "Blade Flurry",
+        "description": "Move while attacking - maintain mobility",
+        "cooldown": "6s",
+        "damage": "High"
+      },
+      {
+        "name": "Back Strike",
+        "description": "+30% damage when attacking from behind"
+      },
+      {
+        "name": "Wall Phase",
+        "description": "Exploit terrain glitches"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "Contract Dealer",
+        "cost": "3,000 Yen per roll",
+        "dropRate": 0.03,
+        "difficulty": "Easy",
+        "soloable": true
+      },
+      {
+        "method": "Encounter",
+        "cost": "Free",
+        "difficulty": "Medium",
+        "soloable": true,
+        "notes": "Forest/Jungle areas"
+      }
+    ],
+    "meta": {
+      "usageRate": "45% of competitive players",
+      "newbieFriendly": 5,
+      "skillCeiling": "High",
+      "communityRating": "High skill ceiling, massive payoff"
+    },
+    "synergiesWith": [
+      "future-devil"
+    ],
+    "recommendedBuilds": [
+      "mantis-assassin"
+    ]
+  },
+  {
+    "id": "violence-devil",
+    "name": "Violence Devil (Barrage)",
+    "tier": "S",
+    "emoji": "💪",
+    "rating": {
+      "pvp": "A",
+      "pve": "S+"
+    },
+    "description": "Highest close-range DPS - melts bosses",
+    "whyTier": "Unmatched sustained DPS. Unstoppable during barrage attack.",
+    "abilities": [
+      {
+        "name": "Violence Barrage",
+        "description": "Rapid punches - cannot be interrupted",
+        "cooldown": "10s",
+        "damage": "Very High"
+      },
+      {
+        "name": "Hyper Armor",
+        "description": "Cannot be staggered during attack"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "NPC Quest",
+        "cost": "Free",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Violence Devil NPC questline"
+      }
+    ],
+    "meta": {
+      "usageRate": "60% of PvE players",
+      "newbieFriendly": 8,
+      "skillCeiling": "Low",
+      "communityRating": "Best boss killer, PvE essential"
+    },
+    "synergiesWith": [
+      "future-devil"
+    ],
+    "recommendedBuilds": [
+      "violence-tank",
+      "pve-farmer"
+    ]
+  },
+  {
+    "id": "blood-devil-scythe",
+    "name": "Blood Devil (Scythe)",
+    "tier": "A",
+    "emoji": "🩸",
+    "rating": {
+      "pvp": "A",
+      "pve": "A"
+    },
+    "description": "Long range versatile weapon",
+    "whyTier": "Great range and damage, but overshadowed by S-tiers in pure damage",
+    "abilities": [
+      {
+        "name": "Blood Scythe",
+        "description": "Long-range sweeping attacks",
+        "cooldown": "7s",
+        "damage": "High"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "Contract Dealer",
+        "cost": "3,000 Yen",
+        "dropRate": 0.05,
+        "difficulty": "Easy",
+        "soloable": true
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 7,
+      "skillCeiling": "Medium"
+    }
+  },
+  {
+    "id": "snake-devil",
+    "name": "Snake Devil",
+    "tier": "A",
+    "emoji": "🐍",
+    "rating": {
+      "pvp": "A",
+      "pve": "B"
+    },
+    "description": "Floor ambush attacks and devouring moves",
+    "whyTier": "Unique ambush mechanics, strong in 1v1 situations",
+    "abilities": [
+      {
+        "name": "Snake Ambush",
+        "description": "Attack from underground",
+        "cooldown": "10s",
+        "damage": "High"
+      },
+      {
+        "name": "Devour",
+        "description": "Grab and consume enemy",
+        "cooldown": "15s"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "Encounter",
+        "cost": "Free",
+        "difficulty": "Medium",
+        "soloable": true,
+        "notes": "Cave near Yakuza base - requires membership"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 5,
+      "skillCeiling": "High"
+    }
+  },
+  {
+    "id": "fox-devil",
+    "name": "Fox Devil",
+    "tier": "B",
+    "emoji": "🦊",
+    "rating": {
+      "pvp": "B",
+      "pve": "A"
+    },
+    "description": "Best FREE beginner contract",
+    "whyTier": "Solid all-around contract. Free and easy to get. Perfect for new players.",
+    "abilities": [
+      {
+        "name": "Fox Summon",
+        "description": "Summon fox spirit for multi-target attacks",
+        "cooldown": "8s",
+        "damage": "Medium"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "Encounter",
+        "cost": "Free",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Chinatown Shrine - guaranteed spawn"
+      }
+    ],
+    "meta": {
+      "usageRate": "80% of new players",
+      "newbieFriendly": 10,
+      "skillCeiling": "Low",
+      "communityRating": "Perfect starter contract"
+    },
+    "recommendedBuilds": [
+      "beginner-human"
+    ]
+  },
+  {
+    "id": "leech-devil",
+    "name": "Leech Devil",
+    "tier": "B",
+    "emoji": "🩸",
+    "rating": {
+      "pvp": "B",
+      "pve": "A"
+    },
+    "description": "Life steal sustain for long fights",
+    "whyTier": "Great sustain, allows extended farming without healing items",
+    "abilities": [
+      {
+        "name": "Life Drain",
+        "description": "Heal based on damage dealt",
+        "cooldown": "Passive"
+      }
+    ],
+    "acquisition": [
+      {
+        "method": "Encounter",
+        "cost": "Free",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "City spawns"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 9,
+      "skillCeiling": "Low"
+    }
+  }
+]
