@@ -32,7 +32,7 @@ export default function HybridsPage() {
   // Calculate stats
   const totalHybrids = hybrids.length
   const avgDropRate =
-    hybrids.reduce((sum, h) => sum + (h.acquisition.dropRate || 0), 0) / totalHybrids
+    hybrids.reduce((sum: number, h: any) => sum + (h.acquisition.dropRate || 0), 0) / totalHybrids
   const eventExclusive = hybrids.filter((h) => h.rarity === 'Event Only').length
   const raidDrop = hybrids.filter((h) => h.acquisition.method === 'Raid Drop').length
 
