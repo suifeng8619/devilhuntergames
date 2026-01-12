@@ -172,7 +172,7 @@ export default function GuidesPage() {
           discussion.
         </p>
         <a
-          href="https://discord.gg/devilhunter"
+          href="https://discord.com/invite/xvrUmdJUz8"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-brand-primary text-text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-brand-secondary transition-all hover:scale-105 shadow-xl"

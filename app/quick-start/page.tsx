@@ -289,6 +289,14 @@ export default function QuickStartPage() {
                   <span>Find raid parties</span>
                 </div>
               </div>
+              <a
+                href="https://discord.com/invite/xvrUmdJUz8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 bg-brand-primary text-text-primary px-6 py-3 rounded-lg font-semibold hover:bg-brand-secondary transition-all"
+              >
+                Join Discord Server
+              </a>
             </div>
           </div>
 

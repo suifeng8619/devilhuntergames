@@ -278,7 +278,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
                     Join our Discord community of 27,000+ players for real-time help.
                   </p>
                   <a
-                    href="https://discord.gg/devilhunter"
+                    href="https://discord.com/invite/xvrUmdJUz8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm font-semibold text-brand-primary hover:underline"
