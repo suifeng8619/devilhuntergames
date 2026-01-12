@@ -4,57 +4,37 @@
     "name": "Future Devil",
     "tier": "S",
     "emoji": "🔮",
+    "category": "Floor Zero",
     "rating": {
       "pvp": "S+",
       "pve": "A"
     },
-    "description": "See 2 seconds into the future - broken in PvP",
-    "whyTier": "2-second prediction makes this META-defining. See attacks before they land.",
+    "description": "See into the future with i-frames - broken in PvP",
+    "whyTier": "Future Sight counter with invincibility frames makes this META-defining.",
     "abilities": [
       {
         "name": "Future Sight",
-        "description": "Predict enemy actions 2 seconds ahead",
+        "description": "Predict enemy actions with counter and i-frames",
         "cooldown": "Passive"
       },
       {
-        "name": "Perfect Dodge",
+        "name": "Perfect Counter",
         "description": "Trigger invincibility frames based on prediction",
         "cooldown": "5s"
-      },
-      {
-        "name": "Counter Window",
-        "description": "+50% damage on counter attacks within 0.5s of prediction"
       }
     ],
-    "sideEffects": [
-      {
-        "effect": "Blindness",
-        "severity": "Minor",
-        "description": "Cosmetic screen edge blur - habit makes it ignorable"
-      }
-    ],
+    "sacrifice": {
+      "item": "30 Eyes",
+      "permanent": true,
+      "warning": "You will lose eye items permanently"
+    },
     "acquisition": [
       {
-        "method": "NPC Quest",
-        "cost": "30 eye items",
+        "method": "Floor Zero Minigame",
+        "cost": "30 Eyes",
         "difficulty": "Medium",
         "soloable": true,
-        "notes": "HQ Floor 0 NPC"
-      },
-      {
-        "method": "Contract Dealer",
-        "cost": "3,000 Yen per roll",
-        "dropRate": 0.03,
-        "difficulty": "Easy",
-        "soloable": true,
-        "notes": "~3% chance, expect 10-15 rolls"
-      },
-      {
-        "method": "Encounter",
-        "cost": "Free",
-        "difficulty": "Easy",
-        "soloable": true,
-        "notes": "Choose \"lose eyesight\" option"
+        "notes": "Complete rhythm minigame on Floor Zero via HQ elevator"
       }
     ],
     "meta": {
@@ -64,46 +44,85 @@
       "skillCeiling": "Very High",
       "communityRating": "PvP must-have, but needs practice"
     },
-    "synergiesWith": [
-      "ghost-devil",
-      "violence-devil"
+    "synergiesWith": ["ghost-devil", "mantis-devil"]
+  },
+  {
+    "id": "cursed-devil",
+    "name": "Cursed Devil",
+    "tier": "S",
+    "emoji": "🗡️",
+    "category": "Floor Zero",
+    "rating": {
+      "pvp": "S",
+      "pve": "A"
+    },
+    "description": "Curse Sword single-target execution ability",
+    "whyTier": "Powerful single-target execution, but requires long questline.",
+    "abilities": [
+      {
+        "name": "Curse Sword",
+        "description": "Single-target execution with massive damage",
+        "cooldown": "15s",
+        "damage": "Extreme"
+      }
     ],
-    "recommendedBuilds": [
-      "ghost-walker",
-      "future-tactician"
-    ]
+    "sacrifice": {
+      "item": "Lifespan",
+      "permanent": true,
+      "warning": "Reduces your character's maximum lifespan"
+    },
+    "acquisition": [
+      {
+        "method": "World Event + Questline",
+        "cost": "Lifespan sacrifice",
+        "difficulty": "Hard",
+        "soloable": false,
+        "notes": "Long questline + world event win required"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 2,
+      "skillCeiling": "High"
+    }
   },
   {
     "id": "ghost-devil",
-    "name": "Ghost Devil",
+    "name": "Ghost Devil (Yurei)",
     "tier": "S",
     "emoji": "👻",
+    "category": "Raid Boss",
     "rating": {
       "pvp": "S+",
       "pve": "B"
     },
-    "description": "Invisible grabs that cannot be dodged - perfect combo starter",
+    "description": "Ghost Punch reach + Ghost Choke grab - invisible attacks",
     "whyTier": "Invisible grab attacks are unavoidable, guaranteeing combo initiation in PvP",
     "abilities": [
       {
-        "name": "Ghost Grab",
-        "description": "Invisible grab - enemy cannot see or dodge",
+        "name": "Ghost Punch",
+        "description": "Extended reach invisible punch",
         "cooldown": "8s",
         "damage": "Medium"
       },
       {
-        "name": "Phase Through",
-        "description": "Pass through walls and obstacles",
-        "cooldown": "12s"
+        "name": "Ghost Choke",
+        "description": "Invisible grab attack - cannot be dodged",
+        "cooldown": "12s",
+        "damage": "High"
       }
     ],
+    "sacrifice": {
+      "item": "Right Arm or Eye",
+      "permanent": true,
+      "warning": "PERMANENT - Choose carefully between arm or eye"
+    },
     "acquisition": [
       {
-        "method": "Yakuza Raid",
+        "method": "Katana Raid",
         "dropRate": 0.1,
         "difficulty": "Hard",
         "soloable": false,
-        "notes": "RAID EXCLUSIVE - Farm repeatedly for 10% drop"
+        "notes": "RAID EXCLUSIVE - 10% drop rate from Katana Raid boss"
       }
     ],
     "meta": {
@@ -112,258 +131,501 @@
       "skillCeiling": "Medium",
       "communityRating": "Best combo starter in game"
     },
-    "synergiesWith": [
-      "future-devil",
-      "mantis-devil"
+    "synergiesWith": ["future-devil", "mantis-devil"]
+  },
+  {
+    "id": "zombie-devil",
+    "name": "Zombie Devil",
+    "tier": "S",
+    "emoji": "💀",
+    "category": "Raid Boss",
+    "rating": {
+      "pvp": "A",
+      "pve": "S+"
+    },
+    "description": "Minion summoning and management - army builder",
+    "whyTier": "Best PvE contract for crowd control and sustained damage via minions.",
+    "abilities": [
+      {
+        "name": "Summon Undead",
+        "description": "Summon zombie minions to fight for you",
+        "cooldown": "10s"
+      },
+      {
+        "name": "Undead Army",
+        "description": "Manage and control multiple minions",
+        "cooldown": "Passive"
+      }
     ],
-    "counters": [
-      "predictable-opponents"
+    "sacrifice": {
+      "item": "None",
+      "permanent": false,
+      "warning": "No sacrifice required"
+    },
+    "acquisition": [
+      {
+        "method": "Zombie Raid",
+        "dropRate": 0.1,
+        "difficulty": "Hard",
+        "soloable": false,
+        "notes": "RAID EXCLUSIVE - 10% drop rate from Zombie Raid boss"
+      }
     ],
-    "recommendedBuilds": [
-      "ghost-walker",
-      "ghost-stealth"
-    ]
+    "meta": {
+      "newbieFriendly": 7,
+      "skillCeiling": "Medium",
+      "communityRating": "Best PvE minion build"
+    }
   },
   {
     "id": "mantis-devil",
     "name": "Mantis Devil",
     "tier": "S",
     "emoji": "🦗",
+    "category": "Free Roam",
     "rating": {
       "pvp": "S",
       "pve": "A"
     },
-    "description": "Move during attack animations - unstoppable combos",
-    "whyTier": "Unique movement during animations creates unstoppable pressure. Back damage bonus.",
+    "description": "Slash attacks and speed boost - high skill ceiling",
+    "whyTier": "Unique slash attacks with speed boost. Requires skill to obtain.",
     "abilities": [
       {
         "name": "Blade Flurry",
-        "description": "Move while attacking - maintain mobility",
+        "description": "Rapid slash attacks with speed boost",
         "cooldown": "6s",
         "damage": "High"
       },
       {
-        "name": "Back Strike",
-        "description": "+30% damage when attacking from behind"
-      },
-      {
-        "name": "Wall Phase",
-        "description": "Exploit terrain glitches"
+        "name": "Speed Boost",
+        "description": "Temporary movement speed increase",
+        "cooldown": "Passive"
       }
     ],
+    "sacrifice": {
+      "item": "Combat Trial",
+      "permanent": false,
+      "warning": "Must pass combat trial - can retry"
+    },
     "acquisition": [
       {
-        "method": "Contract Dealer",
-        "cost": "3,000 Yen per roll",
-        "dropRate": 0.03,
-        "difficulty": "Easy",
-        "soloable": true
-      },
-      {
-        "method": "Encounter",
+        "method": "Combat Trial",
         "cost": "Free",
-        "difficulty": "Medium",
+        "difficulty": "Hard",
         "soloable": true,
-        "notes": "Forest/Jungle areas"
+        "notes": "Defeat Mantis while taking <10% damage AND dealing >70% of total damage"
       }
     ],
     "meta": {
       "usageRate": "45% of competitive players",
-      "newbieFriendly": 5,
-      "skillCeiling": "High",
+      "newbieFriendly": 3,
+      "skillCeiling": "Very High",
       "communityRating": "High skill ceiling, massive payoff"
     },
-    "synergiesWith": [
-      "future-devil"
-    ],
-    "recommendedBuilds": [
-      "mantis-assassin"
-    ]
-  },
-  {
-    "id": "violence-devil",
-    "name": "Violence Devil (Barrage)",
-    "tier": "S",
-    "emoji": "💪",
-    "rating": {
-      "pvp": "A",
-      "pve": "S+"
-    },
-    "description": "Highest close-range DPS - melts bosses",
-    "whyTier": "Unmatched sustained DPS. Unstoppable during barrage attack.",
-    "abilities": [
-      {
-        "name": "Violence Barrage",
-        "description": "Rapid punches - cannot be interrupted",
-        "cooldown": "10s",
-        "damage": "Very High"
-      },
-      {
-        "name": "Hyper Armor",
-        "description": "Cannot be staggered during attack"
-      }
-    ],
-    "acquisition": [
-      {
-        "method": "NPC Quest",
-        "cost": "Free",
-        "difficulty": "Easy",
-        "soloable": true,
-        "notes": "Violence Devil NPC questline"
-      }
-    ],
-    "meta": {
-      "usageRate": "60% of PvE players",
-      "newbieFriendly": 8,
-      "skillCeiling": "Low",
-      "communityRating": "Best boss killer, PvE essential"
-    },
-    "synergiesWith": [
-      "future-devil"
-    ],
-    "recommendedBuilds": [
-      "violence-tank",
-      "pve-farmer"
-    ]
-  },
-  {
-    "id": "blood-devil-scythe",
-    "name": "Blood Devil (Scythe)",
-    "tier": "A",
-    "emoji": "🩸",
-    "rating": {
-      "pvp": "A",
-      "pve": "A"
-    },
-    "description": "Long range versatile weapon",
-    "whyTier": "Great range and damage, but overshadowed by S-tiers in pure damage",
-    "abilities": [
-      {
-        "name": "Blood Scythe",
-        "description": "Long-range sweeping attacks",
-        "cooldown": "7s",
-        "damage": "High"
-      }
-    ],
-    "acquisition": [
-      {
-        "method": "Contract Dealer",
-        "cost": "3,000 Yen",
-        "dropRate": 0.05,
-        "difficulty": "Easy",
-        "soloable": true
-      }
-    ],
-    "meta": {
-      "newbieFriendly": 7,
-      "skillCeiling": "Medium"
-    }
+    "synergiesWith": ["future-devil", "ghost-devil"]
   },
   {
     "id": "snake-devil",
     "name": "Snake Devil",
     "tier": "A",
     "emoji": "🐍",
+    "category": "Shrine & NPC",
     "rating": {
       "pvp": "A",
       "pve": "B"
     },
-    "description": "Floor ambush attacks and devouring moves",
-    "whyTier": "Unique ambush mechanics, strong in 1v1 situations",
+    "description": "Swallow, store, and spit enemies - unique utility",
+    "whyTier": "Unique swallow mechanic for storing and spitting enemies.",
     "abilities": [
       {
-        "name": "Snake Ambush",
-        "description": "Attack from underground",
-        "cooldown": "10s",
-        "damage": "High"
+        "name": "Swallow",
+        "description": "Devour and store enemies inside",
+        "cooldown": "15s"
       },
       {
-        "name": "Devour",
-        "description": "Grab and consume enemy",
-        "cooldown": "15s"
+        "name": "Spit",
+        "description": "Spit out stored enemies as projectiles",
+        "cooldown": "5s"
       }
     ],
+    "sacrifice": {
+      "item": "20 Hearts",
+      "permanent": true,
+      "warning": "Requires 20 heart items to sacrifice"
+    },
     "acquisition": [
       {
-        "method": "Encounter",
-        "cost": "Free",
-        "difficulty": "Medium",
+        "method": "Yakuza + Combat Trial",
+        "cost": "20 Hearts",
+        "difficulty": "Hard",
         "soloable": true,
-        "notes": "Cave near Yakuza base - requires membership"
+        "notes": "Must be Yakuza member + complete combat trial"
       }
     ],
     "meta": {
-      "newbieFriendly": 5,
+      "newbieFriendly": 4,
       "skillCeiling": "High"
     }
   },
   {
     "id": "fox-devil",
-    "name": "Fox Devil",
-    "tier": "B",
+    "name": "Fox Devil (Kon)",
+    "tier": "A",
     "emoji": "🦊",
+    "category": "Shrine & NPC",
     "rating": {
       "pvp": "B",
       "pve": "A"
     },
-    "description": "Best FREE beginner contract",
-    "whyTier": "Solid all-around contract. Free and easy to get. Perfect for new players.",
+    "description": "Kon summon with massive bite attack",
+    "whyTier": "Powerful summon ability but requires body part sacrifice.",
     "abilities": [
       {
-        "name": "Fox Summon",
-        "description": "Summon fox spirit for multi-target attacks",
-        "cooldown": "8s",
-        "damage": "Medium"
+        "name": "Kon Summon",
+        "description": "Summon Kon for massive bite attack",
+        "cooldown": "12s",
+        "damage": "Very High"
       }
     ],
+    "sacrifice": {
+      "item": "Right Eye + Flesh",
+      "permanent": true,
+      "warning": "PERMANENT - Requires Right Eye and Flesh sacrifice"
+    },
     "acquisition": [
       {
-        "method": "Encounter",
-        "cost": "Free",
-        "difficulty": "Easy",
+        "method": "Shrine Ritual",
+        "cost": "Right Eye + Flesh + Gatekeeper fee",
+        "difficulty": "Medium",
         "soloable": true,
-        "notes": "Chinatown Shrine - guaranteed spawn"
+        "notes": "Pay gatekeeper, then offer body parts at shrine"
       }
     ],
     "meta": {
-      "usageRate": "80% of new players",
-      "newbieFriendly": 10,
-      "skillCeiling": "Low",
-      "communityRating": "Perfect starter contract"
+      "newbieFriendly": 5,
+      "skillCeiling": "Medium"
+    }
+  },
+  {
+    "id": "frog-devil",
+    "name": "Frog Devil",
+    "tier": "A",
+    "emoji": "🐸",
+    "category": "Shrine & NPC",
+    "rating": {
+      "pvp": "B",
+      "pve": "A"
     },
-    "recommendedBuilds": [
-      "beginner-human"
-    ]
+    "description": "AOE head bite attack - strong crowd control",
+    "whyTier": "Great AOE damage for PvE farming.",
+    "abilities": [
+      {
+        "name": "Head Bite",
+        "description": "AOE head bite attack",
+        "cooldown": "8s",
+        "damage": "High"
+      }
+    ],
+    "sacrifice": {
+      "item": "Fly Fiend Head",
+      "permanent": true,
+      "warning": "Requires Fly Fiend Head item"
+    },
+    "acquisition": [
+      {
+        "method": "Chinatown Shrine",
+        "cost": "Fly Fiend Head",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Bring Fly Fiend Head to Chinatown Shrine"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 7,
+      "skillCeiling": "Low"
+    }
+  },
+  {
+    "id": "stone-devil",
+    "name": "Stone Devil",
+    "tier": "A",
+    "emoji": "🪨",
+    "category": "Shrine & NPC",
+    "rating": {
+      "pvp": "A",
+      "pve": "B"
+    },
+    "description": "CC and Petrification - crowd control specialist",
+    "whyTier": "Strong crowd control with petrification ability.",
+    "abilities": [
+      {
+        "name": "Petrify",
+        "description": "Turn enemies to stone temporarily",
+        "cooldown": "12s"
+      },
+      {
+        "name": "Stone Skin",
+        "description": "Increased defense",
+        "cooldown": "Passive"
+      }
+    ],
+    "sacrifice": {
+      "item": "Body Parts",
+      "permanent": true,
+      "warning": "Requires various body part items"
+    },
+    "acquisition": [
+      {
+        "method": "Circle Ritual",
+        "cost": "Body Parts",
+        "difficulty": "Medium",
+        "soloable": true,
+        "notes": "Complete circle-based ritual with body parts"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 5,
+      "skillCeiling": "Medium"
+    }
+  },
+  {
+    "id": "acid-devil",
+    "name": "Acid Devil",
+    "tier": "B",
+    "emoji": "🥒",
+    "category": "Free Roam",
+    "rating": {
+      "pvp": "B",
+      "pve": "B"
+    },
+    "description": "Acid projectile attacks - good starter contract",
+    "whyTier": "Easy to obtain with decent ranged damage.",
+    "abilities": [
+      {
+        "name": "Acid Spit",
+        "description": "Ranged acid projectile attacks",
+        "cooldown": "5s",
+        "damage": "Medium"
+      }
+    ],
+    "sacrifice": {
+      "item": "Arm",
+      "permanent": true,
+      "warning": "Requires Arm item sacrifice"
+    },
+    "acquisition": [
+      {
+        "method": "City Spawn",
+        "cost": "Arm item",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Hold Arm item near spawned devil in city"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 8,
+      "skillCeiling": "Low",
+      "communityRating": "Good beginner contract"
+    }
   },
   {
     "id": "leech-devil",
     "name": "Leech Devil",
     "tier": "B",
     "emoji": "🩸",
+    "category": "Free Roam",
     "rating": {
       "pvp": "B",
       "pve": "A"
     },
-    "description": "Life steal sustain for long fights",
-    "whyTier": "Great sustain, allows extended farming without healing items",
+    "description": "Life Leech passive healing - great sustain",
+    "whyTier": "Excellent sustain for extended farming sessions.",
     "abilities": [
       {
-        "name": "Life Drain",
-        "description": "Heal based on damage dealt",
+        "name": "Life Leech",
+        "description": "Passive healing based on damage dealt",
         "cooldown": "Passive"
       }
     ],
+    "sacrifice": {
+      "item": "Heart",
+      "permanent": true,
+      "warning": "Requires Heart item sacrifice"
+    },
     "acquisition": [
       {
-        "method": "Encounter",
-        "cost": "Free",
+        "method": "City Spawn",
+        "cost": "Heart item",
         "difficulty": "Easy",
         "soloable": true,
-        "notes": "City spawns"
+        "notes": "Bring Heart item to city spawn location"
       }
     ],
     "meta": {
       "newbieFriendly": 9,
+      "skillCeiling": "Low",
+      "communityRating": "Best sustain for beginners"
+    }
+  },
+  {
+    "id": "bat-devil",
+    "name": "Bat Devil",
+    "tier": "B",
+    "emoji": "🦇",
+    "category": "Free Roam",
+    "rating": {
+      "pvp": "B",
+      "pve": "B"
+    },
+    "description": "AOE attacks and mobility wings - versatile",
+    "whyTier": "No sacrifice required, good mobility option.",
+    "abilities": [
+      {
+        "name": "Wing Attack",
+        "description": "AOE wing-based attacks",
+        "cooldown": "6s",
+        "damage": "Medium"
+      },
+      {
+        "name": "Flight",
+        "description": "Limited flight mobility",
+        "cooldown": "15s"
+      }
+    ],
+    "sacrifice": {
+      "item": "None",
+      "permanent": false,
+      "warning": "No sacrifice required - beginner friendly"
+    },
+    "acquisition": [
+      {
+        "method": "Forest NPC Farm",
+        "cost": "Free",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Farm Forest Bat NPCs until contract drops"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 10,
+      "skillCeiling": "Low",
+      "communityRating": "Best free beginner contract"
+    }
+  },
+  {
+    "id": "tomato-devil",
+    "name": "Tomato Devil",
+    "tier": "B",
+    "emoji": "🍅",
+    "category": "Free Roam",
+    "rating": {
+      "pvp": "C",
+      "pve": "B"
+    },
+    "description": "Plant-based abilities - unique farming contract",
+    "whyTier": "Unique mechanic but limited combat utility.",
+    "abilities": [
+      {
+        "name": "Plant Growth",
+        "description": "Plant-based attack abilities",
+        "cooldown": "8s",
+        "damage": "Low"
+      }
+    ],
+    "sacrifice": {
+      "item": "None",
+      "permanent": false,
+      "warning": "No sacrifice required"
+    },
+    "acquisition": [
+      {
+        "method": "Tomato Plant",
+        "cost": "Free",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Water tomato plant before harvest to trigger contract"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 10,
+      "skillCeiling": "Low"
+    }
+  },
+  {
+    "id": "fish-devil",
+    "name": "Fish Devil",
+    "tier": "B",
+    "emoji": "🐟",
+    "category": "Shrine & NPC",
+    "rating": {
+      "pvp": "C",
+      "pve": "B"
+    },
+    "description": "Water-based abilities",
+    "whyTier": "Situational water abilities, limited use outside water areas.",
+    "abilities": [
+      {
+        "name": "Water Blast",
+        "description": "Water-based attack abilities",
+        "cooldown": "7s",
+        "damage": "Medium"
+      }
+    ],
+    "sacrifice": {
+      "item": "Worm Carcass",
+      "permanent": true,
+      "warning": "Requires Worm Carcass item"
+    },
+    "acquisition": [
+      {
+        "method": "Feed Fish Devil",
+        "cost": "Worm Carcass",
+        "difficulty": "Easy",
+        "soloable": true,
+        "notes": "Feed Fish Devil at specific location"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 7,
+      "skillCeiling": "Low"
+    }
+  },
+  {
+    "id": "mold-devil",
+    "name": "Mold Devil",
+    "tier": "C",
+    "emoji": "🍄",
+    "category": "Shrine & NPC",
+    "rating": {
+      "pvp": "C",
+      "pve": "C"
+    },
+    "description": "Decay and spread effects - niche use",
+    "whyTier": "Unique decay mechanic but expensive sacrifice.",
+    "abilities": [
+      {
+        "name": "Decay",
+        "description": "Spread decay effects to enemies",
+        "cooldown": "10s",
+        "damage": "Low over time"
+      }
+    ],
+    "sacrifice": {
+      "item": "10 Human Legs",
+      "permanent": true,
+      "warning": "Expensive sacrifice - 10 Human Legs required"
+    },
+    "acquisition": [
+      {
+        "method": "Exact Offering",
+        "cost": "10 Human Legs",
+        "difficulty": "Medium",
+        "soloable": true,
+        "notes": "Must offer exactly 10 Human Legs to Mold Devil"
+      }
+    ],
+    "meta": {
+      "newbieFriendly": 3,
       "skillCeiling": "Low"
     }
   }

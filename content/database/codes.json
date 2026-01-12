@@ -1,38 +1,81 @@
 [
   {
-    "id": "75klikes",
-    "code": "75KLIKES",
+    "id": "100klikes",
+    "code": "100KLIKES",
     "status": "New",
     "rewards": [
       {
-        "type": "Yen",
-        "amount": "200,000"
+        "type": "Fiend Reroll",
+        "amount": "x2"
       },
+      {
+        "type": "Clan Reroll",
+        "amount": "x2"
+      },
+      {
+        "type": "Haircolor Reroll"
+      }
+    ],
+    "totalValue": "Best reroll code available",
+    "caseSensitive": true,
+    "redeemable": "Once",
+    "addedDate": "2026-01-09",
+    "description": "100K Likes celebration - double rerolls plus haircolor"
+  },
+  {
+    "id": "fps",
+    "code": "FPS",
+    "status": "Active",
+    "rewards": [
+      {
+        "type": "Fiend Reroll",
+        "amount": "x2"
+      },
+      {
+        "type": "Clan Reroll",
+        "amount": "x2"
+      }
+    ],
+    "caseSensitive": true,
+    "redeemable": "Once",
+    "addedDate": "2026-01-08",
+    "description": "FPS optimization update reward"
+  },
+  {
+    "id": "iloveroblox",
+    "code": "ILOVEROBLOX",
+    "status": "Active",
+    "rewards": [
       {
         "type": "Fiend Reroll"
       },
       {
         "type": "Clan Reroll"
+      },
+      {
+        "type": "Yen",
+        "amount": "15,000"
       }
     ],
-    "totalValue": "200K+ Yen equivalent",
     "caseSensitive": true,
     "redeemable": "Once",
-    "description": "Latest code - massive Yen reward"
+    "addedDate": "2026-01-08",
+    "description": "Roblox community appreciation code"
   },
   {
-    "id": "shutdownsorry",
-    "code": "SHUTDOWNSORRY",
+    "id": "freeslot",
+    "code": "FREESLOT",
     "status": "New",
     "rewards": [
       {
-        "type": "Yen",
-        "amount": "Various"
+        "type": "Free Slot",
+        "description": "Additional character slot"
       }
     ],
     "caseSensitive": true,
     "redeemable": "Once",
-    "description": "Compensation for server downtime"
+    "addedDate": "2026-01-12",
+    "description": "Free character slot - limited time"
   },
   {
     "id": "50klikes",
@@ -50,12 +93,14 @@
       }
     ],
     "caseSensitive": true,
-    "redeemable": "Once"
+    "redeemable": "Once",
+    "addedDate": "2026-01-06",
+    "description": "50K Likes milestone reward"
   },
   {
     "id": "melo150k",
     "code": "MELO150K",
-    "status": "Active",
+    "status": "Expired",
     "rewards": [
       {
         "type": "Yen",
@@ -68,18 +113,20 @@
         "type": "Clan Reroll"
       },
       {
-        "type": "Contract",
-        "item": "Eraser Devil"
+        "type": "SP Reset"
       }
     ],
-    "totalValue": "75K Yen + Contract",
+    "totalValue": "75K Yen + rerolls",
     "caseSensitive": true,
-    "redeemable": "Once"
+    "redeemable": "Once",
+    "addedDate": "2026-01-06",
+    "expiredDate": "2026-01-11",
+    "description": "Melo 150K followers celebration - EXPIRED"
   },
   {
     "id": "release2026",
     "code": "RELEASE2026",
-    "status": "Active",
+    "status": "Expired",
     "rewards": [
       {
         "type": "Yen",
@@ -93,12 +140,15 @@
       }
     ],
     "caseSensitive": true,
-    "redeemable": "Once"
+    "redeemable": "Once",
+    "addedDate": "2026-01-06",
+    "expiredDate": "2026-01-11",
+    "description": "Full release celebration - EXPIRED"
   },
   {
     "id": "20klikes",
     "code": "20KLIKES",
-    "status": "Active",
+    "status": "Expired",
     "rewards": [
       {
         "type": "Yen",
@@ -111,17 +161,19 @@
         "type": "Clan Reroll"
       },
       {
-        "type": "Contract",
-        "item": "Eraser Devil"
+        "type": "SP Reset"
       }
     ],
     "caseSensitive": true,
-    "redeemable": "Once"
+    "redeemable": "Once",
+    "addedDate": "2026-01-06",
+    "expiredDate": "2026-01-11",
+    "description": "20K Likes milestone - EXPIRED"
   },
   {
     "id": "10klikes",
     "code": "10KLIKES",
-    "status": "Active",
+    "status": "Expired",
     "rewards": [
       {
         "type": "Yen",
@@ -135,6 +187,9 @@
       }
     ],
     "caseSensitive": true,
-    "redeemable": "Once"
+    "redeemable": "Once",
+    "addedDate": "2026-01-06",
+    "expiredDate": "2026-01-11",
+    "description": "10K Likes milestone - EXPIRED"
   }
 ]

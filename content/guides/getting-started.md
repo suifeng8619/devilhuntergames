@@ -1,12 +1,12 @@
 ---
 title: "Complete Devil Hunter Beginner's Guide"
-description: "Everything you need to know before making your first permanent decision in Devil Hunter"
+description: "Everything you need to know before making your first permanent decision in Devil Hunter - updated with Floor Zero, Raids, and Contract acquisition methods"
 category: "Getting Started"
 difficulty: "Beginner"
-readTime: "8 min"
-lastUpdated: "2026-01-09"
+readTime: "12 min"
+lastUpdated: "2026-01-12"
 relatedGuides: ["permanent-mistakes", "contract-decision"]
-relatedContracts: ["fox-devil", "future-devil", "violence-devil"]
+relatedContracts: ["fox-devil", "future-devil", "violence-devil", "chainsaw-devil", "ghost-devil"]
 ---
 
 # Complete Devil Hunter Beginner's Guide
@@ -62,43 +62,73 @@ The path you choose in Devil Hunter is **PERMANENT** and defines your entire pla
 
 ## Devil Hunter Contract Acquisition
 
-Understanding how to get contracts efficiently saves you hours of grinding.
+Understanding how to get contracts efficiently saves you hours of grinding. Contracts are obtained through 4 main categories:
 
-### Method 1: Contract Dealer (❌ NOT Recommended)
+### Category 1: Floor Zero Contracts
 
-- **Cost:** 3,000 Yen per spin
-- **Success Rate:** 27% for S-tier contracts
-- **Time Investment:** 2-5 hours average
-- **Verdict:** High variance, gambling-based, wastes Yen
+Floor Zero is a wave-based survival mode. Several contracts require playing this mode:
 
-**Why Avoid:** You'll spend 30K-50K Yen before getting your desired contract. Not worth it.
+| Contract | How to Obtain | Difficulty |
+|----------|--------------|------------|
+| Cursed Devil | Clear any wave in Floor Zero | Easy |
+| Zombie Devil | Kill the Zombie after Wave 7 | Medium |
+| Bat Devil | Kill the Bat spawn in Floor Zero | Easy |
 
-### Method 2: Black Market (✅ RECOMMENDED)
+**Tip:** Floor Zero can be done solo or in party. Party is faster but solo gives full credit.
 
-- **Cost:** 150,000 Yen
-- **Success Rate:** 100% guaranteed
-- **Time Investment:** Instant
-- **Verdict:** Best method for S-tier contracts
+### Category 2: Raid Boss Contracts
 
-**Why Best:** Guaranteed success, no gambling, predictable cost. Use code Yen to afford it.
+Raid bosses drop specific contracts. Some require party play:
 
-### Method 3: Devil Encounters (⚠️ Supplementary)
+| Contract | How to Obtain | Solo/Party |
+|----------|--------------|-----------|
+| Control Devil | Kill Control Boss | Both |
+| Bomb Devil | Kill Bomb Boss | Party Required |
+| Katana Devil | Use Blood Manipulation + Kill Katana Boss | Both |
+| Violence Devil | Defeat Violence Boss | Party Required |
+| War Devil | Deal 30%+ damage to War Boss | Party Required |
 
-- **Cost:** Free (exploration)
-- **Success Rate:** Varies by location
-- **Time Investment:** Luck-based
-- **Verdict:** Nice bonus, but don't rely on it
+**Tip:** Join Discord to find raid parties. Party raids are 40% faster.
 
-**Strategy:** Check encounter locations while doing other activities. Don't dedicate time to hunting encounters.
+### Category 3: Free Roam Contracts
 
-### Method 4: Daily Missions (✅ Essential)
+These contracts have special conditions in the open world:
 
-- **Cost:** 30 minutes/day
-- **Success Rate:** Guaranteed B-tier+
-- **Time Investment:** Consistent daily effort
-- **Verdict:** Must-do for F2P players
+| Contract | How to Obtain | Notes |
+|----------|--------------|-------|
+| Fox Devil | Free from NPC Natsuki | Tutorial reward |
+| Mantis Devil | Pass combat trial (<10% damage taken, >70% damage dealt) | Hard skill check |
+| Angel Devil | Use Lifespan from Blood Gauge | Requires Blood Gauge unlocked |
+| Punishment Devil | Use Lifespan + Get 3 kills + Win match | Complex requirements |
+| Chainsaw Devil | SACRIFICE Blood Manipulation | **PERMANENT LOSS** |
+| Future Devil | SACRIFICE Eyes | **PERMANENT - Unlocks Vision** |
 
-**Strategy:** Complete daily missions every day without exception. Consistent progress beats gambling.
+**⚠️ WARNING:** Chainsaw Devil and Future Devil require PERMANENT sacrifices. Read the Permanent Mistakes guide before committing.
+
+### Category 4: Shrine & NPC Contracts
+
+| Contract | How to Obtain | Cost |
+|----------|--------------|------|
+| Ghost Devil | Training Room Shrine | 50 Favor |
+
+**Favor System:** Favor is earned through gameplay. Losing matches can reduce Favor - be careful in PvP if saving for Ghost Devil.
+
+### Quick Contract Tier List
+
+**S-Tier (Best):**
+- Future Devil (PvP meta, requires sacrifice)
+- Chainsaw Devil (Highest damage, requires sacrifice)
+- Violence Devil (Best PvE)
+
+**A-Tier (Great):**
+- Ghost Devil (Strong utility)
+- Control Devil (Good crowd control)
+- War Devil (High burst)
+
+**B-Tier (Solid):**
+- Fox Devil (Free starter)
+- Mantis Devil (Skill-based)
+- Angel Devil (Unique playstyle)
 
 ## Resource Management Strategy
 

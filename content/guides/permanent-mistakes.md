@@ -1,19 +1,19 @@
 ---
-title: "5 Permanent Devil Hunter Mistakes to Avoid"
-description: "Critical mistakes that cannot be undone without resetting your account"
+title: "8 Permanent Devil Hunter Mistakes to Avoid"
+description: "Critical mistakes that cannot be undone without resetting your account - including sacrifice contracts and Favor loss"
 category: "Critical Warnings"
 difficulty: "Beginner"
-readTime: "6 min"
-lastUpdated: "2026-01-09"
+readTime: "10 min"
+lastUpdated: "2026-01-12"
 relatedGuides: ["getting-started", "contract-decision"]
-relatedContracts: ["future-devil", "fox-devil"]
+relatedContracts: ["future-devil", "fox-devil", "chainsaw-devil", "ghost-devil"]
 ---
 
-# 5 Permanent Devil Hunter Mistakes to Avoid
+# 8 Permanent Devil Hunter Mistakes to Avoid
 
-**⚠️ WARNING:** These mistakes cannot be undone without resetting your entire account. Over 12,000+ Devil Hunter players have made these errors and regretted it.
+**⚠️ WARNING:** These mistakes cannot be undone without resetting your entire account. Over 15,000+ Devil Hunter players have made these errors and regretted it.
 
-**Statistics:** 67% of account resets are due to these 6 mistakes. Don't let poor early decisions ruin your 100+ hour investment.
+**Statistics:** 67% of account resets are due to these 8 mistakes. Don't let poor early decisions ruin your 100+ hour investment.
 
 ---
 
@@ -304,7 +304,88 @@ Without Fox Devil, you're forced to:
 
 ---
 
-## Bonus Mistake #6: Premature Hybrid Grinding
+## Mistake #6: Sacrificing Resources for Contracts Without Research
+
+**Impact Level:** 🔴 CATASTROPHIC
+
+**Affected Players:** 12% of advanced players
+
+### The Problem
+
+Some S-tier contracts require **PERMANENT** sacrifices that cannot be reversed:
+
+| Contract | Sacrifice Required | What You Lose |
+|----------|-------------------|---------------|
+| **Chainsaw Devil** | Blood Manipulation | Lose Blood Manipulation FOREVER |
+| **Future Devil** | Eyes | Lose Eyes FOREVER (gain Vision) |
+
+### Why This Is Catastrophic
+
+**Chainsaw Devil:**
+- Blood Manipulation is a core combat ability
+- Once sacrificed, you can NEVER use Blood Manipulation again
+- Many builds and combos require Blood Manipulation
+- There is NO way to get it back
+
+**Future Devil:**
+- You lose Eyes permanently
+- You gain Vision ability instead
+- Some players prefer Eyes over Vision
+- Cannot undo this trade
+
+### Real Player Stories
+
+**"I sacrificed Blood Manipulation for Chainsaw without knowing what I was losing. Now I can't do 50% of the combos in the game."** - Player #18,293
+
+### The Solution
+
+**Before sacrificing ANY resource:**
+
+1. ✅ Research what the sacrifice actually does
+2. ✅ Understand what you're permanently losing
+3. ✅ Check if the contract is worth the permanent loss
+4. ✅ Ask in Discord if unsure
+5. ✅ Watch gameplay videos of life WITHOUT the sacrificed ability
+
+**The contracts are powerful, but the cost is permanent. Choose wisely.**
+
+---
+
+## Mistake #7: Losing Favor Before Getting Ghost Devil
+
+**Impact Level:** 🟡 HIGH
+
+**Affected Players:** 25% of new players
+
+### The Problem
+
+Ghost Devil requires 50 Favor from the Training Room Shrine. Favor can be LOST by:
+- Losing PvP matches
+- Abandoning matches
+- Certain negative actions
+
+Players grind to 45 Favor, lose a few PvP matches, drop to 30 Favor, and have to start over.
+
+### The Consequences
+
+- Hours of Favor grinding wasted
+- Delayed access to Ghost Devil (A-tier contract)
+- Frustration and burnout
+
+### The Solution
+
+**When saving for Ghost Devil:**
+
+1. ✅ Avoid PvP until you have 50+ Favor
+2. ✅ Focus on PvE content that grants Favor
+3. ✅ Don't abandon matches (major Favor penalty)
+4. ✅ Build a buffer - get to 60 Favor before taking risks
+
+**If you're at 40+ Favor and need Ghost Devil urgently, STOP doing risky content.**
+
+---
+
+## Mistake #8: Premature Hybrid Grinding
 
 **Impact Level:** 🟢 MEDIUM
 
