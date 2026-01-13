@@ -4,7 +4,7 @@ description: "Critical mistakes that cannot be undone without resetting your acc
 category: "Critical Warnings"
 difficulty: "Beginner"
 readTime: "10 min"
-lastUpdated: "2026-01-12"
+lastUpdated: "2026-01-13"
 relatedGuides: ["getting-started", "contract-decision"]
 relatedContracts: ["future-devil", "fox-devil", "chainsaw-devil", "ghost-devil"]
 ---

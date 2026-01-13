@@ -169,6 +169,13 @@
         "difficulty": "Hard",
         "soloable": false,
         "notes": "RAID EXCLUSIVE - 10% drop rate from Zombie Raid boss"
+      },
+      {
+        "method": "Katana Man Raid",
+        "dropRate": 0.1,
+        "difficulty": "Hard",
+        "soloable": false,
+        "notes": "Also drops from Katana Man Raid at 10% rate"
       }
     ],
     "meta": {

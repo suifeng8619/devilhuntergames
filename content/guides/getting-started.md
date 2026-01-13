@@ -4,7 +4,7 @@ description: "Everything you need to know before making your first permanent dec
 category: "Getting Started"
 difficulty: "Beginner"
 readTime: "12 min"
-lastUpdated: "2026-01-12"
+lastUpdated: "2026-01-13"
 relatedGuides: ["permanent-mistakes", "contract-decision"]
 relatedContracts: ["fox-devil", "future-devil", "violence-devil", "chainsaw-devil", "ghost-devil"]
 ---
@@ -87,8 +87,10 @@ Raid bosses drop specific contracts. Some require party play:
 | Katana Devil | Use Blood Manipulation + Kill Katana Boss | Both |
 | Violence Devil | Defeat Violence Boss | Party Required |
 | War Devil | Deal 30%+ damage to War Boss | Party Required |
+| Zombie Devil | Katana Man Raid (10% drop) | Both |
+| Ghost Devil | Katana Man Raid (10% drop) | Both |
 
-**Tip:** Join Discord to find raid parties. Party raids are 40% faster.
+**Tip:** Join Discord to find raid parties. Party raids are 40% faster. Katana Man Raid is great for farming both Zombie Devil and Ghost Devil!
 
 ### Category 3: Free Roam Contracts
 
@@ -110,6 +112,9 @@ These contracts have special conditions in the open world:
 | Contract | How to Obtain | Cost |
 |----------|--------------|------|
 | Ghost Devil | Training Room Shrine | 50 Favor |
+| Snake Devil | Give Hearts to Gauntlet | 20 Hearts |
+
+**Hearts Farming:** Hearts can be obtained from the Blackmarket or by defeating specific enemies. Save up 20 Hearts for Snake Devil if you want this contract.
 
 **Favor System:** Favor is earned through gameplay. Losing matches can reduce Favor - be careful in PvP if saving for Ghost Devil.
 
