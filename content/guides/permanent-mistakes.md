@@ -4,7 +4,7 @@ description: "Critical mistakes that cannot be undone without resetting your acc
 category: "Critical Warnings"
 difficulty: "Beginner"
 readTime: "10 min"
-lastUpdated: "2026-01-13"
+lastUpdated: "2026-01-14"
 relatedGuides: ["getting-started", "contract-decision"]
 relatedContracts: ["future-devil", "fox-devil", "chainsaw-devil", "ghost-devil"]
 ---
@@ -332,6 +332,7 @@ Some S-tier contracts require **PERMANENT** sacrifices that cannot be reversed:
 - You gain Vision ability instead
 - Some players prefer Eyes over Vision
 - Cannot undo this trade
+- **⚠️ Jan 2026 Nerf:** Auto-dodge now has 45 second time limit per activation
 
 ### Real Player Stories
 

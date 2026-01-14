@@ -65,7 +65,7 @@
   {
     "id": "freeslot",
     "code": "FREESLOT",
-    "status": "New",
+    "status": "Active",
     "rewards": [
       {
         "type": "Free Slot",

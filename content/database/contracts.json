@@ -14,8 +14,9 @@
     "abilities": [
       {
         "name": "Future Sight",
-        "description": "Predict enemy actions with counter and i-frames",
-        "cooldown": "Passive"
+        "description": "Predict enemy actions with counter and i-frames (45s limit per activation)",
+        "cooldown": "Passive",
+        "patchNote": "Jan 2026: Auto-dodge now has 45 second time limit"
       },
       {
         "name": "Perfect Counter",
@@ -62,8 +63,9 @@
       {
         "name": "Curse Sword",
         "description": "Single-target execution with massive damage",
-        "cooldown": "15s",
-        "damage": "Extreme"
+        "cooldown": "18s",
+        "damage": "High",
+        "patchNote": "Jan 2026: Base damage reduced, cooldown increased from 15s to 18s"
       }
     ],
     "sacrifice": {
@@ -153,8 +155,9 @@
       },
       {
         "name": "Undead Army",
-        "description": "Manage and control multiple minions",
-        "cooldown": "Passive"
+        "description": "Manage and control multiple minions with enhanced regeneration",
+        "cooldown": "Passive",
+        "patchNote": "Jan 2026: Regeneration speed increased"
       }
     ],
     "sacrifice": {
@@ -450,8 +453,9 @@
     "abilities": [
       {
         "name": "Life Leech",
-        "description": "Passive healing based on damage dealt",
-        "cooldown": "Passive"
+        "description": "Passive healing based on damage dealt (improved efficiency)",
+        "cooldown": "Passive",
+        "patchNote": "Jan 2026: Lifesteal efficiency increased"
       }
     ],
     "sacrifice": {

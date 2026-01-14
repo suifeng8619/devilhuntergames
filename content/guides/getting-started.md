@@ -4,7 +4,7 @@ description: "Everything you need to know before making your first permanent dec
 category: "Getting Started"
 difficulty: "Beginner"
 readTime: "12 min"
-lastUpdated: "2026-01-13"
+lastUpdated: "2026-01-14"
 relatedGuides: ["permanent-mistakes", "contract-decision"]
 relatedContracts: ["fox-devil", "future-devil", "violence-devil", "chainsaw-devil", "ghost-devil"]
 ---
@@ -120,20 +120,27 @@ These contracts have special conditions in the open world:
 
 ### Quick Contract Tier List
 
+*Updated after Jan 2026 balance patch*
+
 **S-Tier (Best):**
-- Future Devil (PvP meta, requires sacrifice)
-- Chainsaw Devil (Highest damage, requires sacrifice)
-- Violence Devil (Best PvE)
+- Future Devil (PvP meta, requires sacrifice) - *Nerfed: 45s auto-dodge limit*
+- Zombie Devil (Best PvE) - *Buffed: Regeneration increased*
+- Violence Devil (Strong PvE)
 
 **A-Tier (Great):**
 - Ghost Devil (Strong utility)
 - Control Devil (Good crowd control)
+- Chainsaw Devil (High damage, requires sacrifice)
 - War Devil (High burst)
 
 **B-Tier (Solid):**
 - Fox Devil (Free starter)
 - Mantis Devil (Skill-based)
+- Leech Devil (Great sustain) - *Buffed: Lifesteal efficiency increased*
 - Angel Devil (Unique playstyle)
+
+**Nerfed (Jan 2026):**
+- Curse Devil - Base damage reduced, cooldown increased to 18s
 
 ## Resource Management Strategy
 
