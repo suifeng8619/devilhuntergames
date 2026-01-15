@@ -75,7 +75,8 @@
     "caseSensitive": true,
     "redeemable": "Once",
     "addedDate": "2026-01-12",
-    "description": "Free character slot - limited time"
+    "expiresDate": "2026-01-17",
+    "description": "Free character slot - expires Jan 17th update"
   },
   {
     "id": "50klikes",

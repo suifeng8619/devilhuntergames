@@ -142,6 +142,22 @@ These contracts have special conditions in the open world:
 **Nerfed (Jan 2026):**
 - Curse Devil - Base damage reduced, cooldown increased to 18s
 
+## Combat Stats (Jan 2026 Update)
+
+Understanding stats helps you build more effectively:
+
+| Stat | Effect | Best For |
+|------|--------|----------|
+| **Technique** | Reduces cooldowns, increases grab range | Combo-heavy builds |
+| **Resistance** | Reduces contract damage taken | PvP survivability |
+| **Strength** | Increases base damage | All builds |
+| **Vitality** | Increases max health | Tank builds |
+
+**Recent Changes:**
+- Technique now affects ability cooldowns (previously only grab)
+- Resistance now specifically reduces contract damage
+- Wall running speed reduced in recent patch
+
 ## Resource Management Strategy
 
 ### Yen (Currency) - CRITICAL Priority
@@ -274,7 +290,7 @@ Remember: **Information prevents regret.** Every hour spent researching saves yo
 
 ---
 
-**Last Updated:** January 9, 2026
+**Last Updated:** January 15, 2026
 
 **Related Guides:**
 - [5 Permanent Mistakes to Avoid](/guides/permanent-mistakes)

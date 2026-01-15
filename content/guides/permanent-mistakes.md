@@ -493,7 +493,7 @@ You're reading this guide, which means you're already smarter than most players.
 
 ---
 
-**Last Updated:** January 9, 2026
+**Last Updated:** January 15, 2026
 
 **Related Guides:**
 - [Complete Beginner's Guide](/guides/getting-started)

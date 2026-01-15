@@ -77,7 +77,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
 
-        {/* Plausible Analytics - 全站统计 */}
+        {/* Plausible Analytics - Site Analytics */}
         <Script
           defer
           data-domain="devilhuntergames.com"

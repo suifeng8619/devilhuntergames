@@ -34,10 +34,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      {/* Hero Section - 大气的渐变背景 */}
+      {/* Hero Section - Gradient Background */}
       <section className="relative bg-gradient-to-b from-background-primary via-background-secondary to-background-primary px-4 md:px-8 lg:px-16 py-16 md:py-24">
         <div className="max-w-7xl mx-auto">
-          {/* 主标题动画 */}
+          {/* Main Title Animation */}
           <div className="text-center mb-12 animate-fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-brand-primary via-brand-light to-brand-primary bg-clip-text text-transparent animate-pulse-slow">
               Devil Hunter - Ultimate Game Guide
@@ -50,7 +50,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* 实时统计卡片 */}
+          {/* Live Stats Cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 animate-slide-up">
             <StatCard
               icon={<Database size={24} />}
@@ -78,7 +78,7 @@ export default function Home() {
             />
           </div>
 
-          {/* 紧急警告横幅 - 更醒目 */}
+          {/* Urgent Warning Banner */}
           <div className="bg-gradient-to-r from-semantic-warningBg to-semantic-errorBg border-2 border-semantic-warning rounded-xl p-6 md:p-8 mb-12 shadow-2xl shadow-semantic-warning/20 animate-slide-up">
             <div className="flex items-start gap-4">
               <AlertTriangle className="text-semantic-warning flex-shrink-0 animate-pulse" size={32} />
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 本周最强Build展示 */}
+      {/* Best Builds This Week */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-background-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -192,7 +192,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 快速功能入口 - 重新设计 */}
+      {/* Quick Feature Cards */}
       <section className="px-4 md:px-8 lg:px-16 py-16">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">
@@ -230,7 +230,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 热门契约快速访问 */}
+      {/* Top Contracts Quick Access */}
       <section className="px-4 md:px-8 lg:px-16 py-16">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -285,7 +285,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 数据库快速访问 - 网格展示 */}
+      {/* Database Quick Access Grid */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-background-secondary">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-3">
@@ -328,7 +328,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Devil Hunter 新手完全指南 */}
+      {/* Devil Hunter Complete Beginner Guide */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-background-primary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -342,7 +342,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {/* Devil Hunter 路径系统 */}
+            {/* Devil Hunter Path System */}
             <div className="bg-background-secondary border-2 border-border-primary rounded-xl p-8 hover:border-brand-primary transition-all">
               <h3 className="text-2xl font-bold mb-4 text-brand-primary flex items-center gap-2">
                 <Target size={24} />
@@ -376,7 +376,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Devil Hunter 契约获取 */}
+            {/* Devil Hunter Contract Acquisition */}
             <div className="bg-background-secondary border-2 border-border-primary rounded-xl p-8 hover:border-brand-primary transition-all">
               <h3 className="text-2xl font-bold mb-4 text-tier-s flex items-center gap-2">
                 <Database size={24} />
@@ -418,7 +418,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Devil Hunter 资源管理 */}
+          {/* Devil Hunter Resource Management */}
           <div className="bg-gradient-to-r from-background-secondary to-background-tertiary border-2 border-brand-primary/30 rounded-xl p-8">
             <h3 className="text-2xl font-bold mb-4 text-text-primary flex items-center gap-2">
               <TrendingUp className="text-tier-s" size={24} />
@@ -460,7 +460,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Devil Hunter 常见致命错误 */}
+      {/* Devil Hunter Common Fatal Mistakes */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-background-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -520,7 +520,7 @@ export default function Home() {
               affected="15% of Devil Hunter beginners"
             />
 
-            {/* 额外错误 - 填满空间 */}
+            {/* Additional Mistake - Fill Space */}
             <MistakeCard
               number="6"
               title="Premature Devil Hunter Hybrid Form Grinding"
@@ -543,7 +543,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Devil Hunter 进阶技巧 */}
+      {/* Devil Hunter Advanced Strategies */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-background-primary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -624,7 +624,7 @@ export default function Home() {
             />
           </div>
 
-          {/* Devil Hunter 契约组合 */}
+          {/* Devil Hunter Contract Combos */}
           <div className="bg-background-secondary border-2 border-border-primary rounded-xl p-8">
             <h3 className="text-2xl font-bold mb-6 text-text-primary">
               Top 5 Devil Hunter Contract Synergies (Human Path)
@@ -728,7 +728,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 为什么选择我们 */}
+      {/* Why Choose Us */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-gradient-to-b from-background-primary to-background-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -779,7 +779,7 @@ export default function Home() {
             />
           </div>
 
-          {/* 对比其他指南 */}
+          {/* Comparison With Other Guides */}
           <div className="bg-background-secondary border-2 border-brand-primary rounded-xl p-8">
             <h3 className="text-2xl font-bold mb-6 text-center">
               Devil Hunter Guide Comparison: Us vs Traditional Wikis
@@ -831,7 +831,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 社区统计和行动号召 */}
+      {/* Community Stats and CTA */}
       <section className="px-4 md:px-8 lg:px-16 py-16 bg-background-secondary">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -860,9 +860,9 @@ export default function Home() {
   )
 }
 
-// ========== 新增组件定义 ==========
+// ========== Component Definitions ==========
 
-// 路径信息组件
+// Path Info Component
 function PathInfo({
   name,
   description,
@@ -905,7 +905,7 @@ function PathInfo({
   )
 }
 
-// 获取方法组件
+// Acquisition Method Component
 function AcquisitionMethod({
   method,
   cost,
@@ -941,7 +941,7 @@ function AcquisitionMethod({
   )
 }
 
-// 资源提示组件
+// Resource Tip Component
 function ResourceTip({
   resource,
   priority,
@@ -979,7 +979,7 @@ function ResourceTip({
   )
 }
 
-// 错误卡片组件
+// Mistake Card Component
 function MistakeCard({
   number,
   title,
@@ -1043,7 +1043,7 @@ function MistakeCard({
   )
 }
 
-// 策略卡片组件
+// Strategy Card Component
 function StrategyCard({
   category,
   icon,
@@ -1077,7 +1077,7 @@ function StrategyCard({
   )
 }
 
-// 契约协同组件
+// Synergy Card Component
 function SynergyCard({
   contracts,
   rating,
@@ -1115,7 +1115,7 @@ function SynergyCard({
   )
 }
 
-// FAQ组件
+// FAQ Component
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
     <details className="bg-background-primary border border-border-primary rounded-lg p-6 hover:border-brand-primary transition-all group">
@@ -1128,7 +1128,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   )
 }
 
-// 价值卡片组件
+// Value Card Component
 function ValueCard({
   icon,
   title,
@@ -1150,7 +1150,7 @@ function ValueCard({
   )
 }
 
-// 对比行组件
+// Comparison Row Component
 function ComparisonRow({
   feature,
   us,
@@ -1169,7 +1169,7 @@ function ComparisonRow({
   )
 }
 
-// 统计卡片组件
+// Stat Card Component
 function StatCard({
   icon,
   value,
@@ -1190,7 +1190,7 @@ function StatCard({
   )
 }
 
-// 警告条目组件
+// Warning Item Component
 function WarningItem({
   number,
   title,
@@ -1215,7 +1215,7 @@ function WarningItem({
   )
 }
 
-// Build卡片组件
+// Build Card Component
 function BuildCard({
   rank,
   title,
@@ -1248,12 +1248,12 @@ function BuildCard({
 
   return (
     <div className="bg-background-primary border-2 border-border-primary rounded-xl p-6 hover:border-brand-primary transition-all hover:scale-105 hover:shadow-2xl hover:shadow-brand-primary/20 relative group">
-      {/* 排名徽章 */}
+      {/* Rank Badge */}
       <div className="absolute -top-4 -left-4 bg-brand-primary text-text-primary w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl shadow-lg">
         #{rank}
       </div>
 
-      {/* Tier徽章 */}
+      {/* Tier Badge */}
       <div className={`inline-block px-3 py-1 rounded-full text-sm font-bold border-2 mb-4 ${tierColors[tier as keyof typeof tierColors]}`}>
         {tier}-Tier
       </div>
@@ -1274,13 +1274,13 @@ function BuildCard({
         </div>
       </div>
 
-      {/* 评分条 */}
+      {/* Rating Bars */}
       <div className="space-y-2 mb-4">
         <RatingBar label="PvP" value={pvpRating} color="bg-brand-primary" />
         <RatingBar label="PvE" value={pveRating} color="bg-tier-a" />
       </div>
 
-      {/* 优势列表 */}
+      {/* Strengths List */}
       <div className="mb-4">
         <p className="text-xs text-text-tertiary mb-2">Core Strengths:</p>
         <div className="flex flex-wrap gap-2">
@@ -1295,13 +1295,13 @@ function BuildCard({
         </div>
       </div>
 
-      {/* 底部信息 */}
+      {/* Bottom Info */}
       <div className="flex justify-between items-center text-xs text-text-tertiary border-t border-border-primary pt-3">
         <span>Difficulty: <span className="font-bold text-text-secondary">{difficulty}</span></span>
         <span>Usage: <span className="font-bold text-text-secondary">{popularityPercent}%</span></span>
       </div>
 
-      {/* 悬停时的查看详情提示 */}
+      {/* Hover Details Hint */}
       <div className="absolute inset-0 bg-brand-primary/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
         <span className="text-brand-primary font-bold">Click to learn more →</span>
       </div>
@@ -1309,7 +1309,7 @@ function BuildCard({
   )
 }
 
-// 评分条组件
+// Rating Bar Component
 function RatingBar({ label, value, color }: { label: string; value: number; color: string }) {
   return (
     <div>
@@ -1327,7 +1327,7 @@ function RatingBar({ label, value, color }: { label: string; value: number; colo
   )
 }
 
-// 功能卡片组件
+// Feature Card Component
 function FeatureCard({
   step,
   icon,
@@ -1356,7 +1356,7 @@ function FeatureCard({
       href={href}
       className="group bg-background-secondary border-2 border-border-primary rounded-xl p-6 hover:border-brand-primary transition-all hover:scale-105 hover:shadow-2xl relative"
     >
-      {/* 步骤编号 */}
+      {/* Step Number */}
       <div className={`absolute -top-3 -right-3 w-16 h-16 rounded-full border-4 ${colorClasses[color]} bg-background-primary flex items-center justify-center font-bold text-xl`}>
         {step}
       </div>
@@ -1384,7 +1384,7 @@ function FeatureCard({
   )
 }
 
-// 数据库卡片组件
+// Database Card Component
 function DatabaseCard({
   title,
   count,
@@ -1405,7 +1405,7 @@ function DatabaseCard({
       href={comingSoon ? '#' : href}
       className={`relative bg-background-primary border-2 border-border-primary rounded-xl p-6 text-center hover:border-brand-primary transition-all hover:scale-105 group overflow-hidden ${comingSoon ? 'opacity-60 cursor-not-allowed' : ''}`}
     >
-      {/* 渐变背景 */}
+      {/* Gradient Background */}
       <div className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-5 group-hover:opacity-10 transition-opacity`} />
 
       <div className="relative">

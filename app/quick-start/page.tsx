@@ -93,24 +93,28 @@ export default function QuickStartPage() {
 
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-text-primary font-semibold mb-2">Active Codes (2026-01):</h4>
+                  <h4 className="text-text-primary font-semibold mb-2">Active Codes (January 2026):</h4>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {[
-                      { code: 'RELEASE', reward: '50,000 Yen' },
-                      { code: 'HUNTER2024', reward: '75,000 Yen' },
-                      { code: 'DEVILPOWER', reward: '100,000 Yen' },
-                      { code: 'CHAINSAW', reward: '50,000 Yen' },
+                      { code: 'FREESLOT', reward: 'Free Character Slot', note: 'Expires Jan 17!' },
+                      { code: '100KLIKES', reward: '2x Fiend + 2x Clan Reroll + Haircolor' },
+                      { code: 'ILOVEROBLOX', reward: 'Fiend + Clan Reroll + 15K Yen' },
+                      { code: 'FPS', reward: '2x Fiend + 2x Clan Reroll' },
+                      { code: '50KLIKES', reward: 'SP Reset + Fiend + Clan Reroll' },
                     ].map((item) => (
                       <div
                         key={item.code}
-                        className="bg-background-tertiary rounded-md p-3 border border-border-primary flex items-center justify-between"
+                        className={`bg-background-tertiary rounded-md p-3 border ${item.note ? 'border-semantic-warning' : 'border-border-primary'} flex flex-col`}
                       >
-                        <div>
+                        <div className="flex items-center justify-between">
                           <span className="font-mono text-brand-primary font-bold">
                             {item.code}
                           </span>
-                          <span className="text-text-tertiary text-sm ml-2">→ {item.reward}</span>
+                          {item.note && (
+                            <span className="text-semantic-warning text-xs font-semibold">{item.note}</span>
+                          )}
                         </div>
+                        <span className="text-text-tertiary text-sm mt-1">{item.reward}</span>
                       </div>
                     ))}
                   </div>
